@@ -463,7 +463,7 @@ public class AplicativoPD extends Aplicativo implements ActionListener, KeyListe
 		}
 		catch (SQLException err) {
 			err.printStackTrace();
-			killProg(1, "Erro ao carregar informações da tabela de usuários!\n" + err.getMessage());
+			killProg(1, " Erreur lors du chargement d Informations a partir de la table des utilisateurs!\n" + err.getMessage());
 		}
 	}
 
@@ -497,7 +497,7 @@ public class AplicativoPD extends Aplicativo implements ActionListener, KeyListe
 			ps.close();
 		}
 		catch (SQLException err) {
-			killProg(1, "Erro ao verificar acessos para arvore de menus!\n" + err.getMessage());
+			killProg(1, "Erreur de vérifier l'accès à l'arborescence du menu!\n" + err.getMessage());
 		}
 		return bRet;
 	}
@@ -546,7 +546,7 @@ public class AplicativoPD extends Aplicativo implements ActionListener, KeyListe
 
 			if (!rs.next()) {
 				FPrefereGeral tela = new FPrefereGeral();
-				telaPrincipal.criatela("Preferências gerais", tela, con);
+				telaPrincipal.criatela("Préférences générales", tela, con);
 				tela.setTelaPrim(telaPrincipal);
 			}
 			con.commit();
@@ -606,7 +606,7 @@ public class AplicativoPD extends Aplicativo implements ActionListener, KeyListe
 			con.commit();
 		}
 		catch (SQLException err) {
-			Funcoes.mensagemErro(null, "Não foi possível obter o número de casas decimais!\n" + err.getMessage(), true, con, err);
+			Funcoes.mensagemErro(null, "Impossible d'obtenir le nombre décimales!\n" + err.getMessage(), true, con, err);
 		}
 		finally {
 			sSQL = null;
@@ -658,7 +658,7 @@ public class AplicativoPD extends Aplicativo implements ActionListener, KeyListe
 			rs = ps.executeQuery();
 			if (!rs.next()) {
 				sFiltro = "";
-				Funcoes.mensagemInforma(null, "Preferências não foram cadastradas!");
+				Funcoes.mensagemInforma(null, "Préférences ne sont pas enregistrés!");
 			}
 			else
 				sFiltro = rs.getString("FILTRO");
@@ -667,7 +667,7 @@ public class AplicativoPD extends Aplicativo implements ActionListener, KeyListe
 			conF.commit();
 		}
 		catch (SQLException err) {
-			Funcoes.mensagemErro(null, "NÃO FOI POSSÍVEL CARREGAR OS FILTROS! " + err.getMessage(), true, conF, err);
+			Funcoes.mensagemErro(null, "IMPOSSIBLE DE CHARGER LES FILTRES! " + err.getMessage(), true, conF, err);
 			// return "NÃO FOI POSSÍVEL CARREGAR OS FILTROSL! ! !";
 		}
 		if (sFiltro == null)
@@ -704,10 +704,10 @@ public class AplicativoPD extends Aplicativo implements ActionListener, KeyListe
 			ps.setInt(2, Aplicativo.iCodEmp);
 			ps.execute();
 			con.commit();
-			Funcoes.mensagemInforma(null, "Filtros atualizados para: " + sFiltro);
+			Funcoes.mensagemInforma(null, "Filtres utilisés pour: " + sFiltro);
 		}
 		catch (SQLException err) {
-			Funcoes.mensagemErro(null, "Erro ao atualizar filtro.\n" + err.getMessage(), true, con, err);
+			Funcoes.mensagemErro(null, "erreur mise à jour le Filtre .\n" + err.getMessage(), true, con, err);
 		}
 	}
 
