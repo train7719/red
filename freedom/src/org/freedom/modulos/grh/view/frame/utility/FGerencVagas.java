@@ -133,11 +133,11 @@ public class FGerencVagas extends FTabDados implements ActionListener, TabelaEdi
 
 	private JCheckBoxPad cbRestricoesCand = new JCheckBoxPad( "Restrições", new Boolean( true ), new Boolean( false ) );
 
-	private JCheckBoxPad cbCursosVaga = new JCheckBoxPad( "Cursos", new Boolean( true ), new Boolean( false ) );
+	private JCheckBoxPad cbCursosVaga = new JCheckBoxPad( "Cours", new Boolean( true ), new Boolean( false ) );
 
 	private JCheckBoxPad cbExperienciaVaga = new JCheckBoxPad( "Experiência", new Boolean( true ), new Boolean( false ) );
 
-	private JCheckBoxPad cbCursosCand = new JCheckBoxPad( "Cursos", new Boolean( true ), new Boolean( false ) );
+	private JCheckBoxPad cbCursosCand = new JCheckBoxPad( "Cours", new Boolean( true ), new Boolean( false ) );
 
 	private JCheckBoxPad cbExperienciaCand = new JCheckBoxPad( "Experiência", new Boolean( true ), new Boolean( false ) );
 
@@ -220,7 +220,7 @@ public class FGerencVagas extends FTabDados implements ActionListener, TabelaEdi
 	public FGerencVagas() {
 
 		super( false );
-		setTitulo( "Gerenciamento de vagas" );
+		setTitulo( "Gestion des Emplois" );
 		setAtribos( 15, 30, 796, 380 );
 
 		montaListaCampos();
@@ -401,8 +401,8 @@ public class FGerencVagas extends FTabDados implements ActionListener, TabelaEdi
 
 		pnBordRod.add( pinRod );
 
-		adicTab( "Candidatos para vagas", pinCandVagas );
-		adicTab( "Vagas para candidatos", pinVagasCand );
+		adicTab( "Les candidats aux postes vacants", pinCandVagas );
+		adicTab( "Offres d'emploi pour les candidats", pinVagasCand );
 
 		pnCabCand.add( pinCabCand, BorderLayout.NORTH );
 		pnCabCand.add( spnTabVagas, BorderLayout.CENTER );
@@ -412,7 +412,7 @@ public class FGerencVagas extends FTabDados implements ActionListener, TabelaEdi
 		pinCabCand.adic( new JLabelPad( "Cód.Cand" ), 7, 0, 60, 20 );
 		pinCabCand.adic( txtCodCand, 7, 20, 60, 20 );
 
-		pinCabCand.adic( new JLabelPad( "Nome do candidato" ), 70, 0, 300, 20 );
+		pinCabCand.adic( new JLabelPad( "Nom du candidat" ), 70, 0, 300, 20 );
 		pinCabCand.adic( txtNomeCand, 70, 20, 300, 20 );
 
 		pinLbFiltrosCand.adic( lbFiltrosCand, 0, 0, 80, 15 );
@@ -473,7 +473,7 @@ public class FGerencVagas extends FTabDados implements ActionListener, TabelaEdi
 		tabCand.adicColuna( "Fone" );
 		tabCand.adicColuna( "Qualif." );
 		tabCand.adicColuna( "Restr." );
-		tabCand.adicColuna( "Cursos" );
+		tabCand.adicColuna( "Cours" );
 		tabCand.adicColuna( "Exp." );
 		tabCand.adicColuna( "Salário" );
 		tabCand.adicColuna( "" );
@@ -505,7 +505,7 @@ public class FGerencVagas extends FTabDados implements ActionListener, TabelaEdi
 		tabVagas.adicColuna( "Função" );
 		tabVagas.adicColuna( "Qualif." );
 		tabVagas.adicColuna( "Restr." );
-		tabVagas.adicColuna( "Cursos" );
+		tabVagas.adicColuna( "Cours" );
 		tabVagas.adicColuna( "Inicial" );
 		tabVagas.adicColuna( "Final" );
 		tabVagas.adicColuna( "" );
@@ -646,7 +646,7 @@ public class FGerencVagas extends FTabDados implements ActionListener, TabelaEdi
 			}
 			con.commit();
 		} catch ( SQLException err ) {
-			Funcoes.mensagemErro( this, "Erro ao consultar candidatos!\n" + err.getMessage(), true, con, err );
+			Funcoes.mensagemErro( this, "Error querying candidates!\n" + err.getMessage(), true, con, err );
 		}
 		tabCand.addTabelaEditListener( this );
 	}

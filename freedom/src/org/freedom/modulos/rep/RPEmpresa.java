@@ -142,7 +142,7 @@ public class RPEmpresa extends FTabDados {
 	public RPEmpresa() {
 
 		super( false );
-		setTitulo( "Cadastro da Empresa" );
+		setTitulo( "Enregistrement da Empresa" );
 		setAtribos( 50, 50, 550, 480 );
 
 		lcCampos.setUsaME( false );

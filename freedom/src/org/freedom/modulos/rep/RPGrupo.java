@@ -75,7 +75,7 @@ public class RPGrupo extends FFilho implements ActionListener, MouseListener, Ke
 	public RPGrupo() {
 
 		super( false );
-		setTitulo( "Cadastro de Grupos e Sub-Grupos" );
+		setTitulo( "Enregistrement de Grupos e Sub-Grupos" );
 		setAtribos( 50, 50, 500, 350 );
 
 		montaTela();

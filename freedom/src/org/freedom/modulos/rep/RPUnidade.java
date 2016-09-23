@@ -42,7 +42,7 @@ public class RPUnidade extends FDados implements ActionListener {
 	public RPUnidade() {
 
 		super( false );
-		setTitulo( "Cadastro de unidades" );
+		setTitulo( "Enregistrement de unidades" );
 		setAtribos( 50, 50, 410, 140 );
 
 		montaTela();

@@ -65,7 +65,7 @@ public class RelVendedorProd extends FRelatorio {
 	public RelVendedorProd() {
 
 		super( false );
-		setTitulo( "Tabela vendas" );
+		setTitulo( "Table des ventes" );
 		setAtribos( 50, 50, 325, 200 );
 
 		montaListaCampos();

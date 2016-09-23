@@ -70,7 +70,7 @@ public class FImpressora extends FDados {
 		// Remove o painel de impressão:
 		pnRodape.remove( 2 );
 		// Constroi a tela FImpressoras:
-		setTitulo( "Cadastro de impressoras" );
+		setTitulo( "Enregistrement de impressoras" );
 		setAtribos( 50, 50, 440, 270 );
 
 		// Prepara o Combo para alterar o campo txtTipoImp

@@ -59,7 +59,7 @@ public class FNBM extends FDetalhe implements ActionListener {
 
 	public FNBM() {
 
-		setTitulo( "Tabela NBM" );
+		setTitulo( "Table NBM" );
 		setAltCab( 90 );
 		setAtribos( 50, 50, 620, 550 );
 		txaTextoNCM.setEditable( false );

@@ -124,7 +124,7 @@ public class FFalta extends FDados implements InsertListener, KeyListener, PostL
 	public FFalta() {
 
 		super();
-		setTitulo( "Cadastro de Falta" );
+		setTitulo( "Enregistrement de Falta" );
 		setAtribos( 50, 50, 600, 350 );
 		
 		montaRadioGrupos();

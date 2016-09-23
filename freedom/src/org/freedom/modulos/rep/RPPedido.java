@@ -227,7 +227,7 @@ public class RPPedido extends FDetalhe implements CarregaListener, InsertListene
 	public RPPedido() {
 
 		super( false );
-		setTitulo( "Cadastro de Pedidos" );
+		setTitulo( "Enregistrement de Pedidos" );
 		setAtribos( 50, 50, 700, 500 );
 
 		montaRadioGrups();

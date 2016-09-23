@@ -64,7 +64,7 @@ public class RPVendedor extends FDados implements ActionListener {
 	public RPVendedor() {
 
 		super( false );
-		setTitulo( "Cadastro de vendedor" );
+		setTitulo( "Enregistrement de vendedor" );
 		setAtribos( 50, 50, 435, 300 );
 
 		montaTela();

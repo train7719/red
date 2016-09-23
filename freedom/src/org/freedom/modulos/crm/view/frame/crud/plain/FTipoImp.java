@@ -84,7 +84,7 @@ public class FTipoImp extends FDados implements PostListener, CarregaListener, D
 	public FTipoImp() {
 
 		super();
-		setTitulo( "Cadastro de org.freedom.layout de importação" );
+		setTitulo( "Enregistrement de org.freedom.layout de importação" );
 		setAtribos( 50, 20, 497, 390 );
 
 		cbCsepTpImp.setVlrString( "N" );

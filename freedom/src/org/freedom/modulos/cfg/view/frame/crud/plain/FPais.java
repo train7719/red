@@ -59,7 +59,7 @@ public class FPais extends FDados implements ActionListener {
 	public FPais() {
 
 		super();
-		setTitulo( "Cadastro de Paises" );
+		setTitulo( "Enregistrement de Paises" );
 		setAtribos( 50, 50, 410, 165 );
 
 		lcCampos.setUsaME( false );

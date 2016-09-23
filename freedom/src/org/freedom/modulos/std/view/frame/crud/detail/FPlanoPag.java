@@ -18,7 +18,7 @@
  *                    de acordo com os termos da LPG-PC <BR>
  * <BR>
  * 
- *                    Cadastro de planos de pagamento.
+ *                    Enregistrement de planos de pagamento.
  * 
  */
 
@@ -146,7 +146,7 @@ public class FPlanoPag extends FDetalhe implements CarregaListener, InsertListen
 
 	public FPlanoPag() {
 
-		setTitulo( "Cadastro de Planos de Pagamento" );
+		setTitulo( "Enregistrement de Planos de Pagamento" );
 		setAtribos( 50, 50, 765, 520 );
 
 		vValsCV.addElement( "C" );
@@ -233,7 +233,7 @@ public class FPlanoPag extends FDetalhe implements CarregaListener, InsertListen
 		adicCampo( txtCodTbJ, 7, 100, 70, 20, "CodTbJ", "Cód.tb.juros", ListaCampos.DB_FK, false );
 		adicDescFK( txtDescTbJ, 80, 100, 217, 20, "DescTbJ", "Descrição da tabela de juros" );
 		adicCampo( txtPercDesc, 300, 100, 70, 20, "PercDesc", "% Desconto", ListaCampos.DB_SI, false );
-		adicDB( rgCV, 375, 100, 363, 37, "CVPlanoPag", "Cadastro para:", true );
+		adicDB( rgCV, 375, 100, 363, 37, "CVPlanoPag", "Enregistrement para:", true );
 		adicDB( cbApOrcPlanoPag, 7, 125, 250, 20, "ApOrcPlanoPag", "", true );
 		adicDB( cbAtivo, 300, 125, 70, 20, "AtivoPlanoPag", "", true );
 

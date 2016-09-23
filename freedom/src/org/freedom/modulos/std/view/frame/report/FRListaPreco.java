@@ -368,7 +368,7 @@ public class FRListaPreco extends FRelatorio implements CheckBoxListener {
 		pinTipo.adic( rgTipo, 20, 22, 270, 30 );
 		pinTipo.adic( new JLabelPad( "Ordem" ), 300, 5, 100, 15 );
 		pinTipo.adic( rgOrdem, 300, 22, 270, 30 );
-		pinTipo.adic( new JLabelPad( "Cadastro para:" ), 20, 55, 100, 15 );
+		pinTipo.adic( new JLabelPad( "Enregistrement para:" ), 20, 55, 100, 15 );
 		pinTipo.adic( rgCV, 20, 72, 270, 30 );
 		pinTipo.adic( new JLabelPad( "Validade:" ), 300, 55, 100, 15 );
 		pinTipo.adic( txtValidade, 300, 72, 100, 20 );

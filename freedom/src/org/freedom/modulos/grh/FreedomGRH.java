@@ -57,55 +57,55 @@ public class FreedomGRH extends AplicativoPD {
 
 	public FreedomGRH() {
 
-		super( "icongrh.png", "splashGRH.png", 1, "Freedom", 9, "Gestão de Recursos Humanos", null, new FPrincipalPD( null, "bgFreedom2.jpg" ), LoginPD.class );
+		super( "icongrh.png", "splashGRH.png", 1, "Freedom", 9, "Gestion des ressources humaines", null, new FPrincipalPD( null, "bgFreedom2.jpg" ), LoginPD.class );
 
-		addOpcao( -1, TP_OPCAO_MENU, "Arquivo", "", 'A', 100000000, 0, false, null );
+		addOpcao( -1, TP_OPCAO_MENU, "Fichier", "", 'A', 100000000, 0, false, null );
 
-		addOpcao( 100000000, TP_OPCAO_MENU, "Tabelas", "", 'T', 100100000, 1, false, null );
+		addOpcao( 100000000, TP_OPCAO_MENU, "Tables", "", 'T', 100100000, 1, false, null );
 
-		addOpcao( 100100000, TP_OPCAO_ITEM, "Candidatos", "Candidatos", 'C', 100100100, 2, true, FCandidato.class );
-
-		addSeparador( 100100000 );
-
-		addOpcao( 100100000, TP_OPCAO_ITEM, "Turnos", "Turnos", 'T', 100100200, 2, true, FTurnos.class );
-		addOpcao( 100100000, TP_OPCAO_ITEM, "Funções", "Funções", 'F', 100100300, 2, true, FFuncao.class );
-		addOpcao( 100100000, TP_OPCAO_ITEM, "Departamentos", "Departamentos", 'D', 100100400, 2, true, FDepto.class );
-		addOpcao( 100100000, TP_OPCAO_ITEM, "Empregados", "Empregados", 'E', 100100500, 2, true, FEmpregado.class );
-		addOpcao( 100100000, TP_OPCAO_ITEM, "Empregadores", "Empregadores", 'p', 100100600, 2, true, FEmpregadores.class );
-		addOpcao( 100100000, TP_OPCAO_ITEM, "Benefícios", "Cadastro de Benefícios", 'b', 100100700, 2, true, FBeneficio.class );
+		addOpcao( 100100000, TP_OPCAO_ITEM, "Candidats", "Candidats", 'C', 100100100, 2, true, FCandidato.class );
 
 		addSeparador( 100100000 );
 
-		addOpcao( 100100000, TP_OPCAO_ITEM, "Areas", "Areas", 'A', 100100700, 2, true, FArea.class );
-		addOpcao( 100100000, TP_OPCAO_ITEM, "Níveis/Cursos", "Níveis/Cursos", 'N', 100100800, 2, true, FNivelCurso.class );
-		addOpcao( 100100000, TP_OPCAO_ITEM, "Cursos", "Cursos", 'u', 100100900, 2, true, FCurso.class );
-		addOpcao( 100100000, TP_OPCAO_ITEM, "Características", "Características", 's', 100101000, 2, true, FCaracteristica.class );
-		addSeparador( 100100000 );
-		addOpcao( 100100000, TP_OPCAO_ITEM, "Estados civis", "Estados civis", 's', 100101100, 2, true, FEstadoCivil.class );
-		addSeparador( 100100000 );
-		addOpcao( 100100000, TP_OPCAO_ITEM, "Códigos GPS/INSS", "Códigos GPS/INSS", 'g', 100101200, 2, true, FCodGPS.class );
-		addSeparador( 100100000 );
-		addOpcao( 100100000, TP_OPCAO_ITEM, "Tabela de IRRF", "Tabela de IRRF", 'I', 100101300, 1, true, FTabelaIRRF.class );
-		addOpcao( 100100000, TP_OPCAO_ITEM, "Tabela de INSS", "Tabela de INSS", 'S', 100101400, 1, true, FTabelaINSS.class );
-		addOpcao( 100100000, TP_OPCAO_ITEM, "Feriados", "Cadastro de Feriados", 'r', 100101500, 2, true, FFeriados.class );
+		addOpcao( 100100000, TP_OPCAO_ITEM, "changements", "changements", 'T', 100100200, 2, true, FTurnos.class );
+		addOpcao( 100100000, TP_OPCAO_ITEM, "Fonctions", "Fonctions", 'F', 100100300, 2, true, FFuncao.class );
+		addOpcao( 100100000, TP_OPCAO_ITEM, "Départements", "Départements", 'D', 100100400, 2, true, FDepto.class );
+		addOpcao( 100100000, TP_OPCAO_ITEM, "Employés", "Employés", 'E', 100100500, 2, true, FEmpregado.class );
+		addOpcao( 100100000, TP_OPCAO_ITEM, "Employeurs", "Employeurs", 'p', 100100600, 2, true, FEmpregadores.class );
+		addOpcao( 100100000, TP_OPCAO_ITEM, "Bénéfices", "Enregistrement des bénéfices", 'b', 100100700, 2, true, FBeneficio.class );
 
-		addOpcao( -1, TP_OPCAO_MENU, "Vagas", "", 'V', 200000000, 0, false, null );
-		addOpcao( 200000000, TP_OPCAO_ITEM, "Cadastro de vagas", "Cadastro de vagas", 'V', 200100000, 1, true, FVaga.class );
+		addSeparador( 100100000 );
+
+		addOpcao( 100100000, TP_OPCAO_ITEM, "Domaines", "Domaines", 'A', 100100700, 2, true, FArea.class );
+		addOpcao( 100100000, TP_OPCAO_ITEM, "Niveaux/Cours", "Niveaux/Cours", 'N', 100100800, 2, true, FNivelCurso.class );
+		addOpcao( 100100000, TP_OPCAO_ITEM, "Cours", "Cours", 'u', 100100900, 2, true, FCurso.class );
+		addOpcao( 100100000, TP_OPCAO_ITEM, "Caractéristiques", "Caractéristiques", 's', 100101000, 2, true, FCaracteristica.class );
+		addSeparador( 100100000 );
+		addOpcao( 100100000, TP_OPCAO_ITEM, "Etat civil", "Etat civil", 's', 100101100, 2, true, FEstadoCivil.class );
+		addSeparador( 100100000 );
+		addOpcao( 100100000, TP_OPCAO_ITEM, "Codes GPS/INSS", "Codes GPS/INSS", 'g', 100101200, 2, true, FCodGPS.class );
+		addSeparador( 100100000 );
+		addOpcao( 100100000, TP_OPCAO_ITEM, "Table de IRRF", "Table de IRRF", 'I', 100101300, 1, true, FTabelaIRRF.class );
+		addOpcao( 100100000, TP_OPCAO_ITEM, "Table de INSS", "Table de INSS", 'S', 100101400, 1, true, FTabelaINSS.class );
+		addOpcao( 100100000, TP_OPCAO_ITEM, "Feriados", "Enregistrement de Feriados", 'r', 100101500, 2, true, FFeriados.class );
+
+		addOpcao( -1, TP_OPCAO_MENU, "Emplois", "", 'V', 200000000, 0, false, null );
+		addOpcao( 200000000, TP_OPCAO_ITEM, "Enregistrement des Emplois", "Enregistrement des Emplois", 'V', 200100000, 1, true, FVaga.class );
 		addSeparador( 200000000 );
-		addOpcao( 200000000, TP_OPCAO_ITEM, "Gerenciamento de vagas", "Gerenciamento de Vagas", 'T', 200200000, 1, true, FGerencVagas.class );
+		addOpcao( 200000000, TP_OPCAO_ITEM, "Management des emplois", "Management des emplois", 'T', 200200000, 1, true, FGerencVagas.class );
 		addSeparador( 200000000 );
-		addOpcao( 200000000, TP_OPCAO_MENU, "Relatórios", "Relatórios", 'T', 200300000, 1, false, null );
-		addOpcao( 200300000, TP_OPCAO_ITEM, "Relatório de atividade por vaga", "Relatório de atividade por vaga", 'a', 200301000, 1, true, FRRelAtiv.class );
-		addOpcao( 200300000, TP_OPCAO_ITEM, "Relatório de Vagas", "Relatório de Vagas", 'a', 200302000, 1, true, FRVagas.class );
-		addOpcao( 200300000, TP_OPCAO_ITEM, "Relatório de atividade", "Relatório de atividade", 'e', 200303000, 1, true, FRAtividade.class );
+		addOpcao( 200000000, TP_OPCAO_MENU, "Rapports", "Rapports", 'T', 200300000, 1, false, null );
+		addOpcao( 200300000, TP_OPCAO_ITEM, "Rapports d'activité par poste", "Rapports d'activité par poste", 'a', 200301000, 1, true, FRRelAtiv.class );
+		addOpcao( 200300000, TP_OPCAO_ITEM, "Rapports des Emplois", "Rapports des Emplois", 'a', 200302000, 1, true, FRVagas.class );
+		addOpcao( 200300000, TP_OPCAO_ITEM, "Rapports d'activité", "Rapports d'activité", 'e', 200303000, 1, true, FRAtividade.class );
 
-		addBotao( "btForneced.png", "Empregadores", "Empregadores", 100100600, FEmpregadores.class );
-		addBotao( "btMedida.png", "Características", "Características", 100101000, FCaracteristica.class );
-		addBotao( "barraConveniados.png", "Empregados", "Empregados", 100100500, FEmpregado.class );
-		addBotao( "barraGrupo.gif", "Candidatos", "Candidatos", 100100100, FCandidato.class );
-		addBotao( "btTarefas.gif", "Cursos", "Cursos", 100100900, FCurso.class );
-		addBotao( "btNovo.png", "Cadastro de vagas", "Cadastro de vagas", 100101100, FVaga.class );
-		addBotao( "btPesquisa.png", "Gerenciamento de vagas", "Gerenciamento de vagas", 200100000, FGerencVagas.class );
+		addBotao( "btForneced.png", "Employeurs", "Employeurs", 100100600, FEmpregadores.class );
+		addBotao( "btMedida.png", "Caractéristiques", "Caractéristiques", 100101000, FCaracteristica.class );
+		addBotao( "barraConveniados.png", "Employés", "Employés", 100100500, FEmpregado.class );
+		addBotao( "barraGrupo.gif", "Candidats", "Candidats", 100100100, FCandidato.class );
+		addBotao( "btTarefas.gif", "Cours", "Cours", 100100900, FCurso.class );
+		addBotao( "btNovo.png", "Enregistrement des Emplois", "Enregistrement des Emplois", 100101100, FVaga.class );
+		addBotao( "btPesquisa.png", "Gestion des Emplois", "Gestion des Emplois", 200100000, FGerencVagas.class );
 
 		ajustaMenu();
 

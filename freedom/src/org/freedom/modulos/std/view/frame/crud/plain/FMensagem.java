@@ -63,7 +63,7 @@ public class FMensagem extends FDados implements ActionListener {
 
 		super();
 		
-		setTitulo( "Cadastro de mensagens" );
+		setTitulo( "Enregistrement de mensagens" );
 		setAtribos( 50, 50, 450, 300 );
 		
 		Vector<String> vLabs2 = new Vector<String>();

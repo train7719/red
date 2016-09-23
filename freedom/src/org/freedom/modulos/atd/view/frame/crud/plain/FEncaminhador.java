@@ -64,7 +64,7 @@ public class FEncaminhador extends FDados implements PostListener {
 
 		nav.setNavigation( true );
 
-		setTitulo( "Cadastro de Encaminhador" );
+		setTitulo( "Enregistrement de transitaire" );
 		setAtribos( 50, 50, 400, 250 );
 
 		adicCampo( txtCodEnc, 7, 20, 50, 20, "CodEnc", "Cód.enc.", ListaCampos.DB_PK, true );

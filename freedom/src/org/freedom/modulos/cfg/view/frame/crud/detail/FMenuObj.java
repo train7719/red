@@ -65,7 +65,7 @@ public class FMenuObj extends FDetalhe {
 
 	public FMenuObj() {
 
-		setTitulo( "Cadastro de Menu x Objeto Sistema" );
+		setTitulo( "Enregistrement de Menu x Objeto Sistema" );
 		setAtribos( 50, 50, 367, 360 );
 
 		lcCampos.setUsaME( false );

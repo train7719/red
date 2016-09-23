@@ -60,8 +60,8 @@ public class FreedomPDV extends AplicativoPDV {
 
 		super( "iconpdv.png", "splashPDV.png", 1, "Freedom", 3, "Ponto de Venda", null );
 
-		addOpcao( -1, TP_OPCAO_MENU, "Arquivo", "", 'A', 100000000, 0, false, null );
-		addOpcao( 100000000, TP_OPCAO_MENU, "Tabelas", "", 'T', 100100000, 1, false, null );
+		addOpcao( -1, TP_OPCAO_MENU, "Fichier", "", 'A', 100000000, 0, false, null );
+		addOpcao( 100000000, TP_OPCAO_MENU, "Tables", "", 'T', 100100000, 1, false, null );
 		addOpcao( 100100000, TP_OPCAO_MENU, "Cliente", "", 'C', 100101000, 2, false, null );
 		addOpcao( 100101000, TP_OPCAO_ITEM, "Tipo de cliente...", "TipoCli", 'T', 100101010, 3, true, FTipoCli.class );
 		addOpcao( 100101000, TP_OPCAO_ITEM, "Classificação de cliente...", "Classifição de Clientes", 'f', 100101020, 3, true, FClasCli.class );

@@ -159,7 +159,7 @@ public class RPCliente extends FTabDados implements ActionListener {
 	public RPCliente() {
 
 		super( false );
-		setTitulo( "Cadastro de tipos de clientes" );
+		setTitulo( "Enregistrement de tipos de clientes" );
 		setAtribos( 50, 50, 450, 530 );
 
 		montaListaCampos();

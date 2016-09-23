@@ -51,7 +51,7 @@ public class FMarca extends FDados implements ActionListener {
 	public FMarca() {
 
 		super();
-		setTitulo( "Cadastro de marcas de produtos" );
+		setTitulo( "Enregistrement de marcas de produtos" );
 		setAtribos( 50, 50, 370, 125 );
 		adicCampo( txtCodMarca, 7, 20, 70, 20, "CodMarca", "Cód.marca", ListaCampos.DB_PK, true );
 		adicCampo( txtDescMarca, 80, 20, 190, 20, "DescMarca", "Descrição da marca", ListaCampos.DB_SI, true );

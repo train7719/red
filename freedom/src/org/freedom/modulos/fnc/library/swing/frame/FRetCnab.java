@@ -475,7 +475,7 @@ public class FRetCnab extends FRetFBN {
 
 				}
 				if ( row > 0 ) {
-					lbStatus.setText( "     Tabela carregada ..." );
+					lbStatus.setText( "     Table chargée ..." );
 					calcSelecionado();
 				}
 				else if ( header != null ) {

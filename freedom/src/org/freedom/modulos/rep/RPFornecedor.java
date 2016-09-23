@@ -87,7 +87,7 @@ public class RPFornecedor extends FDados implements ActionListener {
 	public RPFornecedor() {
 
 		super( false );
-		setTitulo( "Cadastro de fornecedores" );
+		setTitulo( "Enregistrement de fornecedores" );
 		setAtribos( 50, 50, 435, 430 );
 
 		montaRadioGrupos();

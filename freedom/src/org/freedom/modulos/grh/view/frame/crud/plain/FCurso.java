@@ -63,7 +63,7 @@ public class FCurso extends FDados {
 		super( false );
 
 		nav.setNavigation( true );
-		setTitulo( "Cadastro de Cursos" );
+		setTitulo( "Enregistrement de Cursos" );
 		setAtribos( 50, 50, 425, 400 );
 
 		montaListaCampos();

@@ -90,7 +90,7 @@ public class FTipoRecMerc extends FDetalhe implements ActionListener, JComboBoxL
 
 		nav.setNavigation( true );
 
-		setTitulo( "Cadastro de tipos de recepção de mercadorias" );
+		setTitulo( "Enregistrement de tipos de recepção de mercadorias" );
 		setAtribos( 50, 50, 555, 350 );
 
 		setAltCab( 130 );

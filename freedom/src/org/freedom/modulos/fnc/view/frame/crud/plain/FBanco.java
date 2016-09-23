@@ -84,7 +84,7 @@ public class FBanco extends FDados implements ActionListener, KeyListener {
 	public FBanco() {
 
 		super();
-		setTitulo( "Cadastro de Banco" );
+		setTitulo( "Enregistrement de Banco" );
 		setAtribos( 50, 50, 460, 440 );
 
 		

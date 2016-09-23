@@ -57,9 +57,9 @@ public class FreedomATD extends AplicativoPD implements ActionListener {
 
 		super( "iconatd.png", "splashATD.png", 1, "Freedom", 4, "Atendimento", null, new FPrincipalPD( null, "bgFreedom2.jpg" ), LoginPD.class );
 
-		// Arquivo:
-		addOpcao( -1, TP_OPCAO_MENU, "Arquivo", "", 'A', 100000000, 0, false, null );
-		addOpcao( 100000000, TP_OPCAO_MENU, "Tabelas", "", 'T', 100100000, 1, false, null );
+		// Fichier:
+		addOpcao( -1, TP_OPCAO_MENU, "Fichier", "", 'A', 100000000, 0, false, null );
+		addOpcao( 100000000, TP_OPCAO_MENU, "Tables", "", 'T', 100100000, 1, false, null );
 		addOpcao( 100100000, TP_OPCAO_MENU, "Conveniado", "", 'C', 100101000, 2, false, null );
 		addOpcao( 100101000, TP_OPCAO_ITEM, "Tipo de Conveniado", "Tipo de conveniados", 'T', 100101010, 3, true, FTipoConv.class );
 		addOpcao( 100101000, TP_OPCAO_ITEM, "Atribuições", "Abribuições", 'A', 100101020, 3, true, FAtribuicao.class );

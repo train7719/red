@@ -220,7 +220,7 @@ public class FEstacao extends FDetalhe implements PostListener, ActionListener, 
 
 	public FEstacao() {
 
-		setTitulo( "Cadastro de estações de trabalho" );
+		setTitulo( "Enregistrement de estações de trabalho" );
 		setAtribos( 50, 10, 550, 620 );
 
 		montaValores();

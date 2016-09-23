@@ -89,7 +89,7 @@ public class FTipoExpedicao extends FDetalhe implements ActionListener, JComboBo
 
 		nav.setNavigation( true );
 
-		setTitulo( "Cadastro de tipos de expedição de produtos" );
+		setTitulo( "Enregistrement de tipos de expedição de produtos" );
 		setAtribos( 50, 50, 555, 350 );
 
 		setAltCab( 130 );

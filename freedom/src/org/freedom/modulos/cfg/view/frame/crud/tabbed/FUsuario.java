@@ -238,7 +238,7 @@ public class FUsuario extends FTabDados implements PostListener, DeleteListener,
 	public FUsuario() {
 
 		super();
-		setTitulo( "Cadastro de Usuários" );
+		setTitulo( "Enregistrement de Usuários" );
 		setAtribos( 50, 50, 470, 530 );
 
 		labelTipousu.addElement("Banco de dados");

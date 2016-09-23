@@ -48,7 +48,7 @@ public class FArea extends FDados {
 	public FArea() {
 
 		super();
-		setTitulo( "Cadastro de Areas" );
+		setTitulo( "Enregistrement des Domaines" );
 		setAtribos( 50, 50, 360, 125 );
 
 		montaTela();

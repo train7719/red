@@ -50,7 +50,7 @@ public class FTipoAtend extends FDados implements ActionListener {
 
 		super();
 		nav.setNavigation( true );
-		setTitulo( "Cadastro de Tipo de Atendentes" );
+		setTitulo( "Enregistrement de Tipo de Atendentes" );
 		setAtribos( 50, 50, 350, 125 );
 		adicCampo( txtCodTipoAtend, 7, 20, 70, 20, "CodTpAtend", "Cód.atend.", ListaCampos.DB_PK, true );
 		adicCampo( txtDescTipoAtend, 80, 20, 230, 20, "DescTpAtend", "Descrição do tipo de atendente", ListaCampos.DB_SI, true );

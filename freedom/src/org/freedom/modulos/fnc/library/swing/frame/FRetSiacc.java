@@ -270,7 +270,7 @@ public class FRetSiacc extends FRetFBN {
 				}
 
 				if ( row > 0 ) {
-					lbStatus.setText( "     Tabela carregada ..." );
+					lbStatus.setText( "     Table chargée ..." );
 				}
 				else {
 					lbStatus.setText( "     Informações do cliente não encontradas ..." );

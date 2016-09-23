@@ -67,7 +67,7 @@ public class FRVagas extends FRelatorio {
 	public FRVagas() {
 
 		super( false );
-		setTitulo( "Lista de Vagas" );
+		setTitulo( "Liste des Emplois" );
 		setAtribos( 50, 50, 350, 220 );
 
 		montaListaCampos();
@@ -175,7 +175,7 @@ public class FRVagas extends FRelatorio {
 			Funcoes.mensagemErro( this, "Erro ao buscar dados! " + e.getMessage() );
 		}
 
-		dlGr = new FPrinterJob( "relatorios/grhVagas.jasper", "Lista de Vagas", "", rs, null, this );
+		dlGr = new FPrinterJob( "relatorios/grhVagas.jasper", "Listae des Emplois", "", rs, null, this );
 
 		if ( bVisualizar==TYPE_PRINT.VIEW ) {
 			dlGr.preview();

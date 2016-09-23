@@ -50,7 +50,7 @@ public class FTabPreco extends FDados implements ActionListener {
 	public FTabPreco() {
 
 		super();
-		setTitulo( "Cadastro de Tabelas de Preços" );
+		setTitulo( "Enregistrement de Tabelas de Preços" );
 		setAtribos( 50, 50, 350, 125 );
 		adicCampo( txtCodTab, 7, 20, 70, 20, "CodTab", "Cód.tb.pc.", ListaCampos.DB_PK, true );
 		adicCampo( txtDescTab, 80, 20, 250, 20, "DescTab", "Descrição da tabela de preço", ListaCampos.DB_SI, true );

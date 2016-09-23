@@ -56,7 +56,7 @@ import org.freedom.modulos.fnc.view.frame.crud.plain.FBanco;
 import org.freedom.modulos.fnc.view.frame.crud.tabbed.FConta;
 
 /**
- * Cadastro cheques.
+ * Enregistrement cheques.
  * 
  * @author Setpoint Informática Ltda./Anderson Sanchez
  * @version 25/08/2010

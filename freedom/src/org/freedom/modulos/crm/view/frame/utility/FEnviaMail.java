@@ -178,7 +178,7 @@ public class FEnviaMail extends FFilho implements ActionListener {
 		pinGeral.adic( new JLabelPad( "Assunto:" ), 7, 80, 333, 20 );
 		pinGeral.adic( txtAssunto, 7, 100, 333, 20 );
 
-		pinArq.adic( new JLabelPad( "Arquivo" ), 7, 0, 200, 20 );
+		pinArq.adic( new JLabelPad( "Fichier" ), 7, 0, 200, 20 );
 		pinArq.adic( txtArqMen, 7, 20, 313, 20 );
 		pinArq.adic( btBuscaArq, 320, 20, 20, 20 );
 		pinArq.adic( rgTipo, 7, 45, 333, 30 );

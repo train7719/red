@@ -73,7 +73,7 @@ public class FTipoFor extends FDados implements ActionListener {
 
 		nav.setNavigation( true );
 
-		setTitulo( "Cadastro de Tipo de Fornecedor" );
+		setTitulo( "Enregistrement de Tipo de Fornecedor" );
 		
 		setAtribos( 50, 50, 405, 200 );
 		

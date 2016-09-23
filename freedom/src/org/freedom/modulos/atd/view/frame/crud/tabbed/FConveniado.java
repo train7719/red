@@ -189,7 +189,7 @@ public class FConveniado extends FTabDados implements PostListener {
 
 		nav.setNavigation( true );
 
-		setTitulo( "Cadastro de Conveniados" );
+		setTitulo( "Enregistrement de Conveniados" );
 		setAtribos( 50, 10, 530, 450 );
 
 		lcCampos.addPostListener( this );

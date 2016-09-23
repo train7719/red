@@ -63,7 +63,7 @@ public class FHistPad extends FDados implements ActionListener, JComboBoxListene
 	public FHistPad() {
 
 		super();
-		setTitulo( "Cadastro de Históricos padrão" );
+		setTitulo( "Enregistrement de Históricos padrão" );
 		setAtribos( 50, 50, 440, 380 );
 
 		montaCombos();

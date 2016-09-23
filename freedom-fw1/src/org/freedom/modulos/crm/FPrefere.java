@@ -577,9 +577,9 @@ public class FPrefere extends FTabDados implements InsertListener, CarregaListen
 		txtCodModelFI.setListaCampos( lcModelAtendoFI );
 		
 		
-		//Modelo de Cadastro de cliente lançamento de contato
+		//Modelo de Enregistrement de cliente lançamento de contato
 		lcModelAtendoMC.add( new GuardaCampo(txtCodModelMC, "CodModel", "Cód.Model.Orc", ListaCampos.DB_PK, false ) );
-		lcModelAtendoMC.add( new GuardaCampo(txtDescModelMC, "DescModel", "Descrição do Modelo de Atendimento para lançamento de contato, Cadastro de cliente", ListaCampos.DB_SI, false ));
+		lcModelAtendoMC.add( new GuardaCampo(txtDescModelMC, "DescModel", "Descrição do Modelo de Atendimento para lançamento de contato, Enregistrement de cliente", ListaCampos.DB_SI, false ));
 		lcModelAtendoMC.montaSql( false, "MODATENDO", "AT" );
 		lcModelAtendoMC.setQueryCommit( false );
 		lcModelAtendoMC.setReadOnly( true );

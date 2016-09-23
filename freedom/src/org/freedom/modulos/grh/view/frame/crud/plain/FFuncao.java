@@ -51,7 +51,7 @@ public class FFuncao extends FDados implements ActionListener {
 	public FFuncao() {
 
 		super();
-		setTitulo( "Cadastro de funções" );
+		setTitulo( "Enregistrement de funções" );
 		setAtribos( 50, 50, 430, 125 );
 
 		montaTela();

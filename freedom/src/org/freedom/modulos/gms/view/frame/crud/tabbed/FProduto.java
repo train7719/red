@@ -18,7 +18,7 @@
  *                   de acordo com os termos da LPG-PC <BR>
  * <BR>
  * 
- *                   Cadastro de produtos
+ *                   Enregistrement de produtos
  * 
  */
 
@@ -649,7 +649,7 @@ public class FProduto extends FTabDados implements CheckBoxListener, EditListene
 
 		nav.setNavigation( true );
 
-		setTitulo( "Cadastro de Produtos" );
+		setTitulo( "Enregistrement de Produtos" );
 		setAtribos( 30, 10, 685, 660 );
 
 		//Log de inserção adicionado como True para carregar no grid.
@@ -1055,7 +1055,7 @@ public class FProduto extends FTabDados implements CheckBoxListener, EditListene
 
 		// Radios
 
-		adicDB( rgCV, 398, 15, 115, 65, "CVProd", "Cadastro para:", true );
+		adicDB( rgCV, 398, 15, 115, 65, "CVProd", "Enregistrement para:", true );
 		adicDB( rgAbaixCust, 520, 15, 115, 65, "VERIFPROD", "Abaixo custo:", true );
 
 		JPanelPad pnClassificacao = new JPanelPad();

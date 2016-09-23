@@ -80,7 +80,7 @@ public class FTurnos extends FDados implements ActionListener {
 		super();
 
 		nav.setNavigation( true );
-		setTitulo( "Cadastro de Turnos" );
+		setTitulo( "Enregistrement des changements " );
 		setAtribos( 50, 50, 550, 450 );
 
 		vTipoTurnoLab.addElement( "Normal ( manhã e tarde )" );

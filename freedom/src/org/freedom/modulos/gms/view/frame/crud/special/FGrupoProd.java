@@ -97,7 +97,7 @@ public class FGrupoProd extends FFilho implements ActionListener, MouseListener,
 	public FGrupoProd() {
 
 		super( false );
-		setTitulo( "Cadastro de Grupos e Sub-Grupos" );
+		setTitulo( "Enregistrement de Grupos e Sub-Grupos" );
 		setAtribos( 5, 5, 600, 380 );
 
 		Container c = getContentPane();

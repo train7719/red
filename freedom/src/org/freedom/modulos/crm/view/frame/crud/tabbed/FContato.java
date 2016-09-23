@@ -74,7 +74,7 @@ import org.freedom.modulos.std.view.frame.crud.tabbed.FCliente;
 import org.freedom.modulos.std.view.frame.crud.tabbed.FVendedor;
 
 /**
- * Cadastro de contatos
+ * Enregistrement de contatos
  * 
  * @author Setpoint Informática Ltda./Fernando Oliveira da Silva
  * @version 09/09/2009 - Alex Rodrigues
@@ -241,7 +241,7 @@ public class FContato extends FTabDados implements RadioGroupListener, PostListe
 
 		nav.setNavigation( true );
 
-		setTitulo( "Cadastro de Contatos" );
+		setTitulo( "Enregistrement de Contatos" );
 		setAtribos( 50, 10, 530, 640 );
 
 		lcAtiv.setMaster( lcCampos );

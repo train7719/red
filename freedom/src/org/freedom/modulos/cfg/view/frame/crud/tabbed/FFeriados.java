@@ -87,7 +87,7 @@ public class FFeriados extends FTabDados implements PostListener, DeleteListener
 
 	public FFeriados() {
 
-		setTitulo( "Cadastro de Feriados" );
+		setTitulo( "Enregistrement de Feriados" );
 		setAtribos( 50, 50, 600, 300 );
 		montaTela();
 

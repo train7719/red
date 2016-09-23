@@ -48,7 +48,7 @@ public class FAtividade extends FDados implements ActionListener {
 	public FAtividade() {
 
 		super();
-		setTitulo( "Cadastro de atividades" );
+		setTitulo( "Enregistrement de atividades" );
 		setAtribos( 50, 50, 350, 125 );
 		adicCampo( txtCod, 7, 20, 70, 20, "CodAtiv", "Cód.ativ.", ListaCampos.DB_PK, true );
 		adicCampo( txtDesc, 80, 20, 240, 20, "DescAtiv", "Descrição da atividade", ListaCampos.DB_SI, true );

@@ -50,7 +50,7 @@ public class FSecaoProd extends FDados implements ActionListener {
 
 		super();
 
-		setTitulo( "Cadastro Seções de produtos" );
+		setTitulo( "Enregistrement Seções de produtos" );
 		setAtribos( 50, 50, 370, 125 );
 
 		adicCampo( txtCodSecao, 7, 20, 90, 20, "CodSecao", "Cód.Seção", ListaCampos.DB_PK, true );

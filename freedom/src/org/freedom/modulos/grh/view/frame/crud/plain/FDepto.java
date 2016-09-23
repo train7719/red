@@ -49,7 +49,7 @@ public class FDepto extends FDados implements ActionListener {
 	public FDepto() {
 
 		super();
-		setTitulo( "Cadastro de departamentos" );
+		setTitulo( "Enregistrement de departamentos" );
 		setAtribos( 50, 50, 350, 125 );
 
 		montaTela();
@@ -90,7 +90,7 @@ public class FDepto extends FDados implements ActionListener {
 		hParam.put( "CODEMP", Aplicativo.iCodEmp );
 		hParam.put( "CODFILIAL", ListaCampos.getMasterFilial( "RHDEPTO" ) );
 
-		dlGr = new FPrinterJob( "relatorios/grhDepartamento.jasper", "Lista de Departamentos", "", this, hParam, con, null, false );
+		dlGr = new FPrinterJob( "relatorios/grhDepartamento.jasper", "Liste des Départements", "", this, hParam, con, null, false );
 
 		if ( bVisualizar==TYPE_PRINT.VIEW ) {
 			dlGr.preview();

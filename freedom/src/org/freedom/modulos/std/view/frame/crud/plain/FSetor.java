@@ -96,7 +96,7 @@ public class FSetor extends FDetalhe implements ActionListener {
 	public FSetor() {
 
 //		super();
-		setTitulo( "Cadastro de Setor" );
+		setTitulo( "Enregistrement de Setor" );
 
 		nav.setNavigation( true );
 

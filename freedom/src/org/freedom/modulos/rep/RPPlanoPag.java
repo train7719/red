@@ -66,7 +66,7 @@ public class RPPlanoPag extends FDetalhe implements CarregaListener, InsertListe
 	public RPPlanoPag() {
 
 		super( false );
-		setTitulo( "Cadastro de Planos de Pagamento" );
+		setTitulo( "Enregistrement de Planos de Pagamento" );
 		setAtribos( 50, 50, 405, 350 );
 
 		montaMaster();

@@ -54,7 +54,7 @@ public class FGrupoUsu extends FDados implements PostListener, DeleteListener {
 	public FGrupoUsu() {
 
 		super();
-		setTitulo( "Cadastro de Grupos" );
+		setTitulo( "Enregistrement de Grupos" );
 		setAtribos( 50, 50, 400, 200 );
 
 		adicCampo( txtCodGrup, 7, 20, 80, 20, "IDGrpUsu", "ID", ListaCampos.DB_PK, true );

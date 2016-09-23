@@ -92,8 +92,8 @@ public class FreedomPCP extends AplicativoPD implements ActionListener {
 	public FreedomPCP() {
 
 		super( "iconpcp.png", "splashPCP.png", 1, "Freedom", 5, "Planejamento e Controle da Produção", null, new FPrincipalPD( null, "bgFreedom2.jpg" ), LoginPD.class );
-		addOpcao( -1, TP_OPCAO_MENU, "Arquivo", "", 'A', 100000000, 0, false, null );
-		addOpcao( 100000000, TP_OPCAO_MENU, "Tabelas", "", 'T', 100100000, 1, false, null );
+		addOpcao( -1, TP_OPCAO_MENU, "Fichier", "", 'A', 100000000, 0, false, null );
+		addOpcao( 100000000, TP_OPCAO_MENU, "Tables", "", 'T', 100100000, 1, false, null );
 		addOpcao( 100100000, TP_OPCAO_MENU, "Produtos", "", 'P', 100101000, 2, false, null );
 		addOpcao( 100101000, TP_OPCAO_ITEM, "Almoxarifado", "Almoxarifado", 'A', 100120030, 3, true, FAlmox.class );
 		addOpcao( 100101000, TP_OPCAO_ITEM, "Grupo", "Grupo", 'G', 100120040, 3, true, FGrupoProd.class );

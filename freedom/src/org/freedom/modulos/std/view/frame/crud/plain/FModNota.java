@@ -54,7 +54,7 @@ public class FModNota extends FDados implements ActionListener {
 
 		super( false );
 
-		setTitulo( "Cadastro de Modelo de NFs" );
+		setTitulo( "Enregistrement de Modelo de NFs" );
 		setAtribos( 50, 50, 375, 165 );
 
 		Vector<String> vLabs = new Vector<String>();

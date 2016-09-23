@@ -51,7 +51,7 @@ public class RPMoeda extends FDados {
 	public RPMoeda() {
 
 		super( false );
-		setTitulo( "Cadastro de Moedas" );
+		setTitulo( "Enregistrement de Moedas" );
 		setAtribos( 50, 50, 425, 270 );
 
 		Vector<String> vValsTipo = new Vector<String>();

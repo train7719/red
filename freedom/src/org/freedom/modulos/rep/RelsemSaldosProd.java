@@ -64,7 +64,7 @@ public class RelsemSaldosProd extends FRelatorio {
 	public RelsemSaldosProd() {
 
 		super( false );
-		setTitulo( "Tabela vendas" );
+		setTitulo( "Table des ventes" );
 		setAtribos( 50, 50, 325, 200 );
 
 		montaListaCampos();

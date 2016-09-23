@@ -18,7 +18,7 @@
  *                       de acordo com os termos da LPG-PC <BR>
  * <BR>
  * 
- *                       Cadastro de classificações fiscais e suas exceções <BR>
+ *                       Enregistrement de classificações fiscais e suas exceções <BR>
  * 
  */
 

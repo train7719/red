@@ -79,7 +79,7 @@ public class DLImportacaoCompl extends FFDialogo implements ActionListener, Post
 	
 	public DLImportacaoCompl(Integer codemp, Integer codfilial, Integer codimp) {
 		super();
-		setTitulo( "Cadastro de atribuições" );
+		setTitulo( "Enregistrement de atribuições" );
 		setAtribos( 500, 280 );
 		this.codemp = codemp;
 		this.codfilial = codfilial;

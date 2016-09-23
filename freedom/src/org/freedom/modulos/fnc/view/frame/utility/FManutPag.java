@@ -3076,7 +3076,7 @@ public class FManutPag extends FFilho implements ActionListener, CarregaListener
 			menuCores.addSeparator();
 
 			menu_limpa_cor_linha.setText( "Limpa cor" );
-			menu_cadastra_cor.setText( "Cadastro nova cor" );
+			menu_cadastra_cor.setText( "Enregistrement nova cor" );
 			menu_limpa_cor_tudo.setText( "Limpa tudo" );
 
 			menu_limpa_cor_linha.addActionListener( this );

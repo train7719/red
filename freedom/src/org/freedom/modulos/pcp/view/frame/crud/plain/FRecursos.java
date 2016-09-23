@@ -59,7 +59,7 @@ public class FRecursos extends FDados implements ActionListener {
 	public FRecursos() {
 
 		super();
-		setTitulo( "Cadastro de recursos de producão." );
+		setTitulo( "Enregistrement de recursos de producão." );
 		setAtribos( 50, 180, 355, 165 );
 
 		lcTpRecp.add( new GuardaCampo( txtCodTpRecp, "Codtprec", "Cód.rec.", ListaCampos.DB_PK, txtDescTpRecp, true ) );

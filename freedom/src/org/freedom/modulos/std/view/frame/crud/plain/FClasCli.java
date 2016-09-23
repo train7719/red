@@ -53,7 +53,7 @@ public class FClasCli extends FDados implements ActionListener {
 	public FClasCli() {
 
 		super();
-		setTitulo( "Cadastro de Classificação de Cliente" );
+		setTitulo( "Enregistrement de Classificação de Cliente" );
 		setAtribos( 50, 50, 350, 165 );
 		adicCampo( txtCodClasCli, 7, 20, 70, 20, "CodClasCli", "Cód.c.cli.", ListaCampos.DB_PK, null, true );
 		adicCampo( txtDescClasCli, 80, 20, 250, 20, "DescClasCli", "Descrição", ListaCampos.DB_SI, null, true );

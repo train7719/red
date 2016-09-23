@@ -51,7 +51,7 @@ public class FPapel extends FDados {
 		// Remove o painel de impressão da classe FDados:
 		pnRodape.remove( 2 );
 		// Monta a tela:
-		setTitulo( "Cadastro de tipos de papeis" );
+		setTitulo( "Enregistrement de tipos de papeis" );
 		setAtribos( 60, 60, 444, 220 );
 
 		adicCampo( txtCodPapel, 7, 20, 80, 20, "CodPapel", "Cód.papel", ListaCampos.DB_PK, true );

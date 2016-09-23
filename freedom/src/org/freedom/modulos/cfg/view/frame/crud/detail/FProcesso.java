@@ -71,7 +71,7 @@ public class FProcesso extends FDetalhe implements ActionListener {
 
 		btTrat.setToolTipText( "Tratamento de Retorno" );
 
-		setTitulo( "Cadastro Processos" );
+		setTitulo( "Enregistrement Processos" );
 		setAtribos( 50, 50, 450, 350 );
 
 		setAltCab( 90 );

@@ -50,7 +50,7 @@ public class FTipoExp extends FDados implements ActionListener {
 	public FTipoExp() {
 
 		super();
-		setTitulo( "Cadastro de tipos de expositores" );
+		setTitulo( "Enregistrement de tipos de expositores" );
 		setAtribos( 50, 50, 350, 125 );
 		adicCampo( txtCod, 7, 20, 70, 20, "CodTipoExp", "Cód.tp.exp.", ListaCampos.DB_PK, true );
 		adicCampo( txtDesc, 80, 20, 250, 20, "DescTipoExp", "Descrição do tipo de expositor", ListaCampos.DB_SI, true );

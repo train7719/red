@@ -52,7 +52,7 @@ public class FTipoCred extends FDados implements ActionListener {
 	public FTipoCred() {
 
 		super();
-		setTitulo( "Cadastro de tipos de credito" );
+		setTitulo( "Enregistrement de tipos de credito" );
 		setAtribos( 50, 50, 350, 165 );
 		adicCampo( txtCodTipoCred, 7, 20, 80, 20, "CodTpCred", "Cód.tp.cred.", ListaCampos.DB_PK, true );
 		adicCampo( txtDescTipoCred, 90, 20, 240, 20, "DescTpCred", "Descrição do tipo de credito", ListaCampos.DB_SI, true );

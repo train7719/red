@@ -105,7 +105,7 @@ public class FRomaneio extends FDetalhe implements InsertListener, ActionListene
 	
 	public FRomaneio() {
 
-		setTitulo( "Cadastro de Romaneio" );
+		setTitulo( "Enregistrement de Romaneio" );
 		setAtribos( 20, 20, 760, 540 );
 
 		montaListaCampos();

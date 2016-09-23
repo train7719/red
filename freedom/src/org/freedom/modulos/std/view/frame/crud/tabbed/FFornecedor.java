@@ -253,7 +253,7 @@ public class FFornecedor extends FTabDados implements RadioGroupListener, PostLi
 	public FFornecedor() {
 
 		super();
-		setTitulo( "Cadastro de Fornecedores" );
+		setTitulo( "Enregistrement de Fornecedores" );
 		setAtribos( 50, 20, 505, 670 );
 		setImprimir( true );
 		lcForCli.setMaster( lcCampos );

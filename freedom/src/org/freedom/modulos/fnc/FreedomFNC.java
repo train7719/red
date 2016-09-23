@@ -113,17 +113,17 @@ public class FreedomFNC extends AplicativoPD {
 
 	public FreedomFNC() {
 
-		super( "iconfnc.png", "splashFNC.png", 1, "RedTech", 6, "Gestion Financiï¿½re", null, new FPrincipalPD( null, "bgFreedom2.jpg" ), LoginPD.class );
+		super( "iconfnc.png", "splashFNC.png", 1, "RedTech", 6, "Gestion Commerciale", null, new FPrincipalPD( null, "bgFreedom2.jpg" ), LoginPD.class );
 
 		addOpcao( -1, TP_OPCAO_MENU, "Fichier", "", 'A', 100000000, 0, false, null );
 		addOpcao( 100000000, TP_OPCAO_MENU, "Tables", "", 'T', 100100000, 1, false, null );
 		addOpcao( 100100000, TP_OPCAO_MENU, "Client", "", 'C', 100101000, 2, false, null );
 		addOpcao( 100101000, TP_OPCAO_ITEM, "Secteur", "Secteur", 'S', 100101010, 3, true, FSetor.class );
-		addOpcao( 100101000, TP_OPCAO_ITEM, "Commandï¿½", "Commandï¿½o", 's', 100101020, 3, true, FVendedor.class );
+		addOpcao( 100101000, TP_OPCAO_ITEM, "Commandé", "Commandé", 's', 100101020, 3, true, FVendedor.class );
 		addOpcao( 100101000, TP_OPCAO_ITEM, "Types de clients", "TypeCli", 'T', 100101030, 3, true, FTipoCli.class );
 		addOpcao( 100101000, TP_OPCAO_ITEM, "Classification des clients", "Classification des clients", 'f', 100101040, 3, true, FClasCli.class );
 		addOpcao( 100101000, TP_OPCAO_ITEM, "Clients", "Clients", 'C', 100101050, 3, true, FCliente.class );
-		addOpcao( 100101000, TP_OPCAO_ITEM, "Crï¿½dit par client", "Crï¿½dit par client", 'r', 100101060, 3, true, FCredCli.class );
+		addOpcao( 100101000, TP_OPCAO_ITEM, "Crédit par client", "Crédit par client", 'r', 100101060, 3, true, FCredCli.class );
 
 		addSeparador( 100100000 );
 		addOpcao( 100100000, TP_OPCAO_ITEM, "devis", "devis", 'M', 100102000, 2, true, FMoeda.class );
@@ -138,14 +138,14 @@ public class FreedomFNC extends AplicativoPD {
 		addSeparador( 100100000 );
 		addOpcao( 100100000, TP_OPCAO_MENU, "ban", "", 'b', 100109000, 2, false, null );
 		addOpcao( 100109000, TP_OPCAO_ITEM, "Codes de retour", "Codes de retour", 'C', 100109010, 3, true, FCodRetorno.class );
-		addOpcao( 100109000, TP_OPCAO_ITEM, "Fidï¿½lisation des clients", "Fidï¿½lisation des clients", 'M', 100109020, 3, true, FManutCli.class );
+		addOpcao( 100109000, TP_OPCAO_ITEM, "Fidélisation des clients", "Fidélisation des clients", 'M', 100109020, 3, true, FManutCli.class );
 		addOpcao( 100000000, TP_OPCAO_MENU, "Outils", "", 'F', 100200000, 1, false, null );
-		addOpcao( 100200000, TP_OPCAO_ITEM, "convertir entre les catï¿½gories", "convertir entre les catï¿½gories", 'F', 100200010, 1, true, FTrnsLancCat.class );
-		addOpcao( 100000000, TP_OPCAO_MENU, "Prï¿½fï¿½rences", "", 'P', 100300000, 1, false, null );
-		addOpcao( 100300000, TP_OPCAO_ITEM, "Prï¿½fï¿½rences financiï¿½res", "Prï¿½fï¿½rences financiï¿½res", 'P', 100310000, 2, true, FPrefereFNC.class );
-		addOpcao( 100300000, TP_OPCAO_ITEM, "Prï¿½fï¿½rences ban", "Prï¿½fï¿½rences ban", 'F', 100310000, 2, true, FPrefereFBB.class );
+		addOpcao( 100200000, TP_OPCAO_ITEM, "convertir entre les catégories", "convertir entre les catégories", 'F', 100200010, 1, true, FTrnsLancCat.class );
+		addOpcao( 100000000, TP_OPCAO_MENU, "Préférences", "", 'P', 100300000, 1, false, null );
+		addOpcao( 100300000, TP_OPCAO_ITEM, "Préférences Commerciale", "Prï¿½fï¿½rences Commerciale", 'P', 100310000, 2, true, FPrefereFNC.class );
+		addOpcao( 100300000, TP_OPCAO_ITEM, "Préférences ban", "Préférences ban", 'F', 100310000, 2, true, FPrefereFBB.class );
 		// addSeparador( 100100000 );
-		addOpcao( 100000000, TP_OPCAO_MENU, "Rï¿½glages", "", 'C', 100400000, 1, false, null );
+		addOpcao( 100000000, TP_OPCAO_MENU, "Réglages", "", 'C', 100400000, 1, false, null );
 		addOpcao( 100400000, TP_OPCAO_ITEM, "Poste de travail", "Poste de travail", 't', 100401000, 2, true, FEstacao.class );
 		addOpcao( 100400000, TP_OPCAO_ITEM, "Imprimante", "Imprimantes", 'I', 100402000, 2, true, FImpressora.class );
 		addOpcao( 100400000, TP_OPCAO_ITEM, "Papier", "Papiers", 'P', 100403000, 2, true, FPapel.class );

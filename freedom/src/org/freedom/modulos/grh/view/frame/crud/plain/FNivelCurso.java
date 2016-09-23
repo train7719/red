@@ -41,7 +41,7 @@ public class FNivelCurso extends FDados {
 		super();
 
 		nav.setNavigation( true );
-		setTitulo( "Cadastro de níveis de cursos" );
+		setTitulo( "Enregistrement de níveis de cursos" );
 		setAtribos( 50, 50, 380, 135 );
 
 		montaTela();

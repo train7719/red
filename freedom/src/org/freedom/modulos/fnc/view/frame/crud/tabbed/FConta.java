@@ -222,7 +222,7 @@ public class FConta extends FTabDados implements CheckBoxListener, RadioGroupLis
 
 		super( false );
 		
-		setTitulo( "Cadastro de Contas" );
+		setTitulo( "Enregistrement de Contas" );
 		setAtribos( 50, 50, 420, 380 );
 		
 		lcRestricoes.setMaster( lcCampos );

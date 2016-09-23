@@ -67,7 +67,7 @@ public class FSetorAtend extends FDetalhe implements ActionListener {
 
 		nav.setNavigation( true );
 
-		setTitulo( "Cadastro de Setores de atendimento" );
+		setTitulo( "Enregistrement de Setores de atendimento" );
 		setAtribos( 50, 50, 450, 350 );
 
 		setAltCab( 90 );

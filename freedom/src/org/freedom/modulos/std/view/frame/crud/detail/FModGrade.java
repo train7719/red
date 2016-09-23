@@ -115,7 +115,7 @@ public class FModGrade extends FDetalhe implements PostListener, CarregaListener
 
 	public FModGrade() {
 
-		setTitulo( "Cadastro de Modelos da Grade" );
+		setTitulo( "Enregistrement de Modelos da Grade" );
 		setAtribos( 50, 20, 710, 500 );
 		setAltCab( 130 );
 		pinCab = new JPanelPad( 590, 110 );

@@ -64,7 +64,7 @@ public class FAtribuicao extends FDados implements ActionListener, PostListener,
 	public FAtribuicao() {
 
 		super();
-		setTitulo( "Cadastro de atribuições" );
+		setTitulo( "Enregistrement de atribuições" );
 		setAtribos( 50, 50, 340, 280 );
 		adicCampo( txtIdAtrib, 7, 20, 70, 20, "IdAtrib", "Cód.atrib.", ListaCampos.DB_PK, true );
 		adicCampo( txtDescAtrib, 80, 20, 230, 20, "DescAtrib", "Descrição da atirbuição", ListaCampos.DB_SI, true );

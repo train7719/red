@@ -960,8 +960,8 @@ public class FPrefereGeral extends FTabDados implements CheckBoxListener, Action
 		Vector<String> vLabsLeiTransp = new Vector<String>();
 		Vector<String> vValsLeiTransp = new Vector<String>();
 		vLabsLeiTransp.addElement("Não utilizar");
-		vLabsLeiTransp.addElement("Tabela da classificação fiscal");
-		vLabsLeiTransp.addElement("Tabela NCM/IBPT");
+		vLabsLeiTransp.addElement("Table de classification fiscal");
+		vLabsLeiTransp.addElement("Table NCM/IBPT");
 		vValsLeiTransp.addElement("N");
 		vValsLeiTransp.addElement("C");
 		vValsLeiTransp.addElement("I");
@@ -2030,7 +2030,7 @@ public class FPrefereGeral extends FTabDados implements CheckBoxListener, Action
 //		rgAbaixCust.setVlrString( "N" );
 		
 		adicDB( cbRMA, 7, 5, 300, 20, "RMAPROD", "", false );
-		adicDB( rgCV, 7, 50, 115, 70, "CVPROD", "Cadastro para:", false );
+		adicDB( rgCV, 7, 50, 115, 70, "CVPROD", "Enregistrement para:", false );
 		adicDB( rgAbaixCust, 135, 50, 115, 70, "VERIFPROD", "Abaixo custo:", false );
 		
 		JPanelPad pnClassificacao = new JPanelPad();

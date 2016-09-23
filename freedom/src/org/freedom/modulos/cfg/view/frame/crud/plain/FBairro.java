@@ -84,7 +84,7 @@ public class FBairro extends FDados implements ActionListener {
 
 		super();
 
-		setTitulo( "Cadastro de Bairros" );
+		setTitulo( "Enregistrement de Bairros" );
 		setAtribos( 50, 50, 415, 245 );
 
 		montaListaCampos();

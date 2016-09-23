@@ -49,7 +49,7 @@ public class FGrauInst extends FDados implements ActionListener {
 	public FGrauInst() {
 
 		super();
-		setTitulo( "Cadastro de Grau de instrução" );
+		setTitulo( "Enregistrement de Grau de instrução" );
 		setAtribos( 50, 50, 350, 125 );
 		adicCampo( txtCodGrauInstru, 7, 20, 70, 20, "CodGri", "Cód.gri.", ListaCampos.DB_PK, true );
 		adicCampo( txtDescGrauInstru, 80, 20, 250, 20, "DescGri", "Descrição do grau de instrução", ListaCampos.DB_SI, true );

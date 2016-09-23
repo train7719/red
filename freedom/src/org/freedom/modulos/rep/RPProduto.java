@@ -101,7 +101,7 @@ public class RPProduto extends FDados implements ActionListener, InsertListener 
 	public RPProduto() {
 
 		super( false );
-		setTitulo( "Cadastro de produtos" );
+		setTitulo( "Enregistrement de produtos" );
 		setAtribos( 50, 50, 500, 420 );
 
 		montaListaCampos();

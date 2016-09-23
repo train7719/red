@@ -137,9 +137,9 @@ public class FreedomCRM extends AplicativoPD {
 	public FreedomCRM() {
 
 		super( "iconcrm.png", "splashCRM.png", 1, "Freedom", 7, "CRM", null, new FPrincipalCRM( null, "bgFreedom2.jpg" ), LoginPD.class );
-		addOpcao( -1, TP_OPCAO_MENU, "Arquivo", "", 'A', 100000000, 0, false, null );
+		addOpcao( -1, TP_OPCAO_MENU, "Fichier", "", 'A', 100000000, 0, false, null );
 
-		addOpcao( 100000000, TP_OPCAO_MENU, "Tabelas", "", 'T', 100100000, 1, false, null );
+		addOpcao( 100000000, TP_OPCAO_MENU, "Tables", "", 'T', 100100000, 1, false, null );
 
 		addOpcao( 100100000, TP_OPCAO_MENU, "Contato", "", 'C', 1001010000, 2, false, null );
 		addOpcao( 1001010000, TP_OPCAO_ITEM, "Atividade", "Atividade", 'A', 100101010, 3, true, FAtividade.class );
@@ -179,7 +179,7 @@ public class FreedomCRM extends AplicativoPD {
 		addOpcao( 100200000, TP_OPCAO_ITEM, "Preferências CRM", "Preferências CRM", 'P', 100201000, 2, true, FPrefere.class );
 		addOpcao( 100000000, TP_OPCAO_MENU, "Ferramentas", "", 'F', 100300000, 1, false, null );
 		addOpcao( 100300000, TP_OPCAO_ITEM, "Importação de Contatos", "Importação de contatos", 'I', 100301000, 2, true, FImportaCto.class );
-		addOpcao( 100300000, TP_OPCAO_ITEM, "Cadastro de org.freedom.layout", "Cadastro de org.freedom.layout", 'C', 100302000, 2, true, FTipoImp.class );
+		addOpcao( 100300000, TP_OPCAO_ITEM, "Enregistrement de org.freedom.layout", "Enregistrement de org.freedom.layout", 'C', 100302000, 2, true, FTipoImp.class );
 		addOpcao( 100300000, TP_OPCAO_ITEM, "Envio de e-mail aos contatos", "Envia e-mail", 'E', 100303000, 2, true, FEnviaMail.class );
 		addOpcao( 100300000, TP_OPCAO_ITEM, "Gerenciamento de campanhas", "Gerenciamento de campanhas", 'G', 100304000, 2, true, FGerencCampanhas.class );
 		addOpcao( 100300000, TP_OPCAO_ITEM, "Modelos de atendimento", "Modelos de atendimento", 'M', 100305000, 2, true, FModAtendo.class );

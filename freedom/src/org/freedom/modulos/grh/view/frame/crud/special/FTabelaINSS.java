@@ -65,7 +65,7 @@ public class FTabelaINSS extends FDados implements ActionListener, PostListener,
 
 		super();
 
-		setTitulo( "Tabela de INSS" );
+		setTitulo( "Table de INSS" );
 		setAtribos( 50, 50, 350, 300 );
 		criaTabela();
 
@@ -175,7 +175,7 @@ public class FTabelaINSS extends FDados implements ActionListener, PostListener,
 		ImprimeOS imp = new ImprimeOS( "", con );
 		int linPag = imp.verifLinPag() - 1;
 		imp.montaCab();
-		imp.setTitulo( "Tabela de INSS" );
+		imp.setTitulo( "Table de INSS" );
 
 		String sSQL = "SELECT CODTABINSS, TETO, ALIQUOTA FROM RHTABELAINSS ORDER BY CODTABINSS";
 

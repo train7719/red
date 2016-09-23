@@ -49,7 +49,7 @@ public class FTipoRec extends FDados implements ActionListener {
 	public FTipoRec() {
 
 		super();
-		setTitulo( "Cadastro de tipos de recursos" );
+		setTitulo( "Enregistrement de tipos de recursos" );
 		setAtribos( 50, 50, 350, 125 );
 		adicCampo( txtCodTipoRec, 7, 20, 70, 20, "CodTpRec", "Cód.tp.rec.", ListaCampos.DB_PK, true );
 		adicCampo( txtDescTipoRec, 80, 20, 240, 20, "DescTpRec", "Descrição do tipo de recurso", ListaCampos.DB_SI, true );

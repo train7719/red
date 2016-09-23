@@ -687,9 +687,9 @@ public class FCotacaoItens extends FDetalhe implements PostListener, CarregaList
 	private void abreProd() {
 
 		int iCodOrc = txtCodProd.getVlrInteger().intValue();
-		if ( fPrim.temTela( "Cadastro de Produtos" ) == false ) {
+		if ( fPrim.temTela( "Enregistrement de Produtos" ) == false ) {
 			FProduto tela = new FProduto();
-			fPrim.criatela( "Cadastro de Produtos", tela, con );
+			fPrim.criatela( "Enregistrement de Produtos", tela, con );
 			tela.exec( iCodOrc );
 		}
 	}

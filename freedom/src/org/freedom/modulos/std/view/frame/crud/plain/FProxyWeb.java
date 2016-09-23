@@ -62,7 +62,7 @@ public class FProxyWeb extends FDados implements CheckBoxListener, InsertListene
 
 	public FProxyWeb() {
 
-		setTitulo( "Cadastro do Proxy" );
+		setTitulo( "Enregistrement do Proxy" );
 		setAtribos( 50, 10, 520, 250 );
 
 		montaTela();

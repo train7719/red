@@ -56,7 +56,7 @@ public class FTabela extends FDetalhe implements InsertListener, ActionListener 
 
 	public FTabela() {
 
-		setTitulo( "Cadastro de Tabelas auxiliares" );
+		setTitulo( "Enregistrement de Tabelas auxiliares" );
 		setAtribos( 50, 20, 500, 350 );
 		setAltCab( 90 );
 		pinCab = new JPanelPad( 500, 90 );

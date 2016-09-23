@@ -156,8 +156,8 @@ public class FAnaliseLog extends FFilho implements ActionListener {
 		pinCab.adic( txtCodUsu, 7, 83, 80, 20, "Cód.Usu." );
 		pinCab.adic( txtNomeUsu, 90, 83, 270, 20, "Nome usuário" );
 		
-		pinCab.adic( txtIDObj, 7, 123, 120, 20, "Tabela." );
-		pinCab.adic( txtDescObj, 130, 123, 230, 20, "Descrição da tabela" );
+		pinCab.adic( txtIDObj, 7, 123, 120, 20, "Table." );
+		pinCab.adic( txtDescObj, 130, 123, 230, 20, "Description du table" );
 		
 		
 		

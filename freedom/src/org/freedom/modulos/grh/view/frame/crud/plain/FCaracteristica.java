@@ -52,7 +52,7 @@ public class FCaracteristica extends FDados implements ActionListener {
 	public FCaracteristica() {
 
 		super();
-		setTitulo( "Cadastro de Atribuições" );
+		setTitulo( "Enregistrement de Atribuições" );
 		setAtribos( 20, 20, 370, 225 );
 		adicCampo( txtCodCarac, 7, 20, 80, 20, "CodCarac", "Cód.caract.", ListaCampos.DB_PK, true );
 		adicCampo( txtDescCarac, 90, 20, 250, 20, "DescCarac", "Descrição da característica", ListaCampos.DB_SI, true );

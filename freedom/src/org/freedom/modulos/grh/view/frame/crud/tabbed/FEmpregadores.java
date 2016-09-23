@@ -102,7 +102,7 @@ public class FEmpregadores extends FTabDados {
 	public FEmpregadores() {
 
 		super( false );
-		setTitulo( "Cadastro de Empregados" );
+		setTitulo( "Enregistrement des employées" );
 		setAtribos( 50, 50, 430, 430 );
 
 		montaTela();
@@ -187,7 +187,7 @@ public class FEmpregadores extends FTabDados {
 		hParam.put( "CODEMP", Aplicativo.iCodEmp );
 		hParam.put( "CODFILIAL", ListaCampos.getMasterFilial( "RHDEPTO" ) );
 
-		dlGr = new FPrinterJob( "relatorios/grhEmpregador.jasper", "Lista de Empregadores", "", this, hParam, con, null, false );
+		dlGr = new FPrinterJob( "relatorios/grhEmpregador.jasper", "Liste des Employeurs", "", this, hParam, con, null, false );
 
 		if ( bVisualizar==TYPE_PRINT.VIEW ) {
 			dlGr.preview();

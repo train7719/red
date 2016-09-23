@@ -50,7 +50,7 @@ public class FModDocFisc extends FDados implements ActionListener {
 
 		super( false );
 
-		setTitulo( "Cadastro de Modelo de Documentos fiscais" );
+		setTitulo( "Enregistrement de Modelo de Documentos fiscais" );
 		setAtribos( 50, 50, 375, 115 );
 
 		adicCampo( txtCodModDocFisc, 7, 20, 90, 20, "CodModDocFisc", "Cód.mod.doc.fisc.", ListaCampos.DB_PK, true );

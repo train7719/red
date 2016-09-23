@@ -44,7 +44,7 @@ public class RPTipoCli extends FDados implements ActionListener {
 	public RPTipoCli() {
 
 		super( false );
-		setTitulo( "Cadastro de tipos de clientes" );
+		setTitulo( "Enregistrement de tipos de clientes" );
 		setAtribos( 50, 50, 410, 140 );
 
 		montaTela();

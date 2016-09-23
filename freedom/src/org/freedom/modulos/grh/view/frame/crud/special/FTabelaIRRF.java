@@ -187,7 +187,7 @@ public class FTabelaIRRF extends FDados implements ActionListener, PostListener,
 		ImprimeOS imp = new ImprimeOS( "", con );
 		int linPag = imp.verifLinPag() - 1;
 		imp.montaCab();
-		imp.setTitulo( "Tabela de IRRF" );
+		imp.setTitulo( "Table de IRRF" );
 
 		String sSQL = "SELECT CODTABIRRF, TETO, ALIQUOTA, DEDUCAO, REDUCAODEPENDENTE FROM RHTABELAIRRF ORDER BY CODTABIRRF";
 

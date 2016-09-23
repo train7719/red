@@ -1338,7 +1338,7 @@ public class RegT400 extends Reg {
 			line.append( StringFunctions.replicate( " ", 12 ) );  //097 a 108 - Filler
 			/**
 			 * Tabela conf.tabela de instruções
-			 * 01 - Cadastro de título
+			 * 01 - Enregistrement de título
 			 * 02 - Pedido de baixa
 			 * 04 - concessão de abatimento
 			 * 05 - Cancelamento de abatimento concedido

@@ -277,8 +277,8 @@ public class FreedomSTD extends AplicativoPD {
 
 	protected void montaMenu() {
 
-		addOpcao( -1, TP_OPCAO_MENU, "Arquivo", "", 'A', 100000000, 0, false, null );
-		addOpcao( 100000000, TP_OPCAO_MENU, "Tabelas", "", 'T', 100100000, 1, false, null );
+		addOpcao( -1, TP_OPCAO_MENU, "Fichier", "", 'A', 100000000, 0, false, null );
+		addOpcao( 100000000, TP_OPCAO_MENU, "Tables", "", 'T', 100100000, 1, false, null );
 		addOpcao( 100100000, TP_OPCAO_MENU, "Cliente", "", 'C', 100101000, 2, false, null );
 		addOpcao( 100101000, TP_OPCAO_ITEM, "Tipo de cliente", "TipoCli", 'T', 100101010, 3, true, FTipoCli.class );
 		addOpcao( 100101000, TP_OPCAO_ITEM, "Classifica��o de cliente", "Classifica��o de Clientes", 'f', 100101020, 3, true, FClasCli.class );
@@ -310,7 +310,7 @@ public class FreedomSTD extends AplicativoPD {
 		addOpcao( 100100000, TP_OPCAO_ITEM, "Tipo de fornecedor", "Tipo de fornecedor", 'e', 100118000, 2, true, FTipoFor.class );
 		addOpcao( 100100000, TP_OPCAO_ITEM, "Fornecedor", "Fornecedor", 'r', 100119000, 2, true, FFornecedor.class );
 		addSeparador( 100100000 );
-		addOpcao( 100100000, TP_OPCAO_ITEM, "Pa�s", "Pa�s", '�', 100120010, 2, true, FPais.class );
+		addOpcao( 100100000, TP_OPCAO_ITEM, "Pays", "Pays", 'i', 100120010, 2, true, FPais.class );
 		addOpcao( 100100000, TP_OPCAO_ITEM, "Estado", "Estado", 's', 100120020, 2, true, FUF.class );
 		addOpcao( 100100000, TP_OPCAO_ITEM, "Municipio", "Municipio", 'o', 100120030, 2, true, FMunicipio.class );
 		addOpcao( 100100000, TP_OPCAO_ITEM, "Bairro", "Bairro", 'o', 100120040, 2, true, FBairro.class );
@@ -330,7 +330,7 @@ public class FreedomSTD extends AplicativoPD {
 		addOpcao( 100130090, TP_OPCAO_ITEM, "Modelo", "Modelo de Grade", 'M', 100130092, 4, true, FModGrade.class );
 		addOpcao( 100130090, TP_OPCAO_ITEM, "Grade", "Grade", 'r', 100130093, 4, true, FGrade.class );
 		addSeparador( 100100000 );
-		addOpcao( 100100000, TP_OPCAO_MENU, "Pre�o", "", '�', 100140000, 2, false, null );
+		addOpcao( 100100000, TP_OPCAO_MENU, "prix", "", 'C', 100140000, 2, false, null );
 		addOpcao( 100140000, TP_OPCAO_ITEM, "Manuten��o de Pre�os", "Manuten��o de Pre�os", 'M', 100140010, 3, true, FManutPreco.class );
 		addOpcao( 100140000, TP_OPCAO_ITEM, "Copia pre�o", "Copia Precos", 'i', 100140020, 3, true, FCpProd.class );
 		addOpcao( 100140000, TP_OPCAO_ITEM, "Tabela de pre�o", "Tabelas de Pre�os", 'a', 100140030, 3, true, FTabPreco.class );
@@ -569,8 +569,8 @@ public class FreedomSTD extends AplicativoPD {
 		addOpcao( 800000000, TP_OPCAO_ITEM, "Natureza de opera��o (CFOP)", "Naturezas de opera��o(CFOP)", 'z', 80090000, 1, true, FNatoPer.class );
 		addOpcao( 800000000, TP_OPCAO_ITEM, "Regras CFOP", "Regras CFOP", 'R', 800200000, 1, true, FRegraFiscal.class );
 
-		addOpcao( 800000000, TP_OPCAO_ITEM, "Tabela de IRRF", "Tabela de IRRF", 'I', 800900000, 1, true, FTabelaIRRF.class );
-		addOpcao( 800000000, TP_OPCAO_ITEM, "Tabela de INSS", "Tabela de INSS", 'S', 800160000, 1, true, FTabelaINSS.class );
+		addOpcao( 800000000, TP_OPCAO_ITEM, "Table de IRRF", "Table de IRRF", 'I', 800900000, 1, true, FTabelaIRRF.class );
+		addOpcao( 800000000, TP_OPCAO_ITEM, "Table de INSS", "Table de INSS", 'S', 800160000, 1, true, FTabelaINSS.class );
 
 		addOpcao( 800000000, TP_OPCAO_ITEM, "Modelo de Doc. Fiscais", "Modelo de Doc. Fiscais", 'i', 800170000, 2, true, FModDocFisc.class );
 
@@ -578,9 +578,9 @@ public class FreedomSTD extends AplicativoPD {
 
 		addOpcao( 800000000, TP_OPCAO_ITEM, "Tratamento tribut�rio", "Tratamento Tribut�rio", 't', 800100000, 1, true, FTratTrib.class );
 		addOpcao( 800000000, TP_OPCAO_ITEM, "Situa��o tribut�ria", "Situa��o Tribut�ria", 'S', 800140000, 1, true, FSitTrib.class );
-		addOpcao( 800000000, TP_OPCAO_ITEM, "Servi�o", "Servi�o", '�', 800150000, 1, true, FServico.class );
-		addOpcao( 800000000, TP_OPCAO_ITEM, "Tabela NCM", "Tabela NCM", 'N', 800700000, 2, true, FNCM.class );
-		addOpcao( 800000000, TP_OPCAO_ITEM, "Tabela NBM", "Tabela NBM", 'B', 800800000, 2, true, FNBM.class );
+		addOpcao( 800000000, TP_OPCAO_ITEM, "Servi�o", "Servi�o", 'I', 800150000, 1, true, FServico.class );
+		addOpcao( 800000000, TP_OPCAO_ITEM, "Table NCM", "Table NCM", 'N', 800700000, 2, true, FNCM.class );
+		addOpcao( 800000000, TP_OPCAO_ITEM, "Table NBM", "Table NBM", 'B', 800800000, 2, true, FNBM.class );
 		addOpcao( 800000000, TP_OPCAO_ITEM, "Classifica��o fiscal", "Classifica��es", 'l', 800110000, 1, true, FCLFiscal.class );
 		addOpcao( 800000000, TP_OPCAO_ITEM, "Tipos fiscais", "Tipos Fiscais", 'p', 800130000, 3, true, FTipoFisc.class );
 
@@ -620,7 +620,7 @@ public class FreedomSTD extends AplicativoPD {
 		addBotao( "btContaReceber.png", "Contas a receber", "Manuten��o de contas a receber", 500100000, FManutRec.class );
 		addBotao( "btLancamentoFin.png", "Lan�amentos financeiros", "Lan�amentos", 600600000, FLanca.class );
 		addBotao( "btEstoque.png", "Consulta estoque", "Consulta", 700300000, FConsEstoque.class );
-		addBotao( "btProduto.png", "Cadastro de produtos", "Produtos", 100130070, FProduto.class );
+		addBotao( "btProduto.png", "Enregistrement de produtos", "Produtos", 100130070, FProduto.class );
 		addBotao( "btEstProduto.png", "Consulta produto", "Consulta produto", 700400000, FConsProd.class );
 		addBotao( "btAprovaOrc2.png", "Libera��o de cr�dito", "Libera��o de cr�dito", 601100000, FLiberaCredito.class );
 		addBotao( "btConsultaCli.png", "Consulta de Clientes", "Consulta de Clientes", 301200200, FConsultaCli.class );

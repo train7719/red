@@ -64,7 +64,7 @@ public class FTalaoCheq extends FDados implements ActionListener, KeyListener, I
 	public FTalaoCheq() {
 
 		super();
-		setTitulo( "Cadastro de Talonário de Cheques" );
+		setTitulo( "Enregistrement de Talonário de Cheques" );
 		setAtribos( 50, 50, 400, 210 );
 
 		lcConta.add( new GuardaCampo( txtNumconta, "Numconta", "Número conta", ListaCampos.DB_PK, txtDescconta, true ) );

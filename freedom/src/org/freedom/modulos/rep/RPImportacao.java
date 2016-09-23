@@ -151,7 +151,7 @@ public class RPImportacao extends FFilho implements ActionListener {
 		panelImportacao.adic( txtDiretorio, 10, 40, 350, 20 );
 		panelImportacao.adic( btDirtorio, 370, 38, 24, 24 );
 
-		JLabel tabelas = new JLabel( "Tabelas", SwingConstants.CENTER );
+		JLabel tabelas = new JLabel( "Tables", SwingConstants.CENTER );
 		tabelas.setOpaque( true );
 		JLabel linha1 = new JLabel();
 		linha1.setBorder( BorderFactory.createEtchedBorder() );

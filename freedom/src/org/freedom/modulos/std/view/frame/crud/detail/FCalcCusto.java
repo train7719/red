@@ -17,7 +17,7 @@
  *         escreva para a Fundação do Software Livre(FSF) Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA <BR>
  * <BR>
  * 
- *         Cadastro de custo fórmula para custo de aquisição.
+ *         Enregistrement de custo fórmula para custo de aquisição.
  * 
  */
 

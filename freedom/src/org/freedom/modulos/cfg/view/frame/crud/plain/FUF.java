@@ -66,7 +66,7 @@ public class FUF extends FDados {
 	public FUF() {
 
 		super();
-		setTitulo( "Cadastro de UF" );
+		setTitulo( "Enregistrement de UF" );
 		setAtribos( 50, 50, 370, 250 );
 
 		lcCampos.setUsaME( false );

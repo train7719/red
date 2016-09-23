@@ -40,7 +40,7 @@ public class FBeneficio extends FDados implements ActionListener {
 	public FBeneficio() {
 
 		super();
-		setTitulo( "Cadastro de Benefícios" );
+		setTitulo( "Enregistrement de Benefícios" );
 		setAtribos( 50, 50, 450, 125 );
 
 		montaTela();

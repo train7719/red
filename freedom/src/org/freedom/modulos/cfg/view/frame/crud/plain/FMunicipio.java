@@ -66,7 +66,7 @@ public class FMunicipio extends FDados {
 	public FMunicipio() {
 
 		super();
-		setTitulo( "Cadastro de UF" );
+		setTitulo( "Enregistrement de UF" );
 		setAtribos( 50, 50, 370, 220 );
 
 		lcCampos.setUsaME( false );

@@ -97,7 +97,7 @@ public class FTipoCli extends FDados implements ActionListener {
 	public FTipoCli() {
 
 		super();
-		setTitulo( "Cadastro de tipos de clientes" );
+		setTitulo( "Enregistrement de tipos de clientes" );
 		setAtribos( 50, 50, 440, 330 );
 		adicCampo( txtCod, 7, 20, 70, 20, "CodTipoCli", "Cód.tp.cli.", ListaCampos.DB_PK, true );
 		adicCampo( txtDesc, 80, 20, 250, 20, "DescTipoCli", "Descrição do tipo de cliente", ListaCampos.DB_SI, true );

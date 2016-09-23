@@ -42,7 +42,7 @@ public class FEstadoCivil extends FDados implements ActionListener {
 	public FEstadoCivil() {
 
 		super();
-		setTitulo( "Cadastro de estados civis" );
+		setTitulo( "Enregistrement de estados civis" );
 		setAtribos( 50, 50, 380, 135 );
 		adicCampo( txtCodEstCivil, 7, 20, 70, 20, "CodEstCivil", "Cód.E.Civil", ListaCampos.DB_PK, true );
 		adicCampo( txtDescEstCivil, 80, 20, 250, 20, "DescEstCivil", "Descrição do estado civil", ListaCampos.DB_SI, true );

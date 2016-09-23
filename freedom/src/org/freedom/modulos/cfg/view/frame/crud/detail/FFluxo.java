@@ -64,7 +64,7 @@ public class FFluxo extends FDetalhe implements ActionListener {
 
 	public FFluxo() {
 
-		setTitulo( "Cadastro Fluxos" );
+		setTitulo( "Enregistrement Fluxos" );
 		setAtribos( 50, 50, 450, 350 );
 
 		setAltCab( 90 );

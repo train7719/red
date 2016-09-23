@@ -1791,7 +1791,7 @@ public class FManutRec extends FFilho implements ActionListener, CarregaListener
 			menuCores.addSeparator();
 
 			menucancelacor.setText( "Limpa cor" );
-			menucadastracor.setText( "Cadastro nova cor" );
+			menucadastracor.setText( "Enregistrement nova cor" );
 
 			menucancelacor.addActionListener( this );
 			menucadastracor.addActionListener( this );

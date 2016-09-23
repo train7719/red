@@ -82,7 +82,7 @@ public class FTipoCob extends FDados implements ActionListener {
 	public FTipoCob() {
 
 		super();
-		setTitulo( "Cadastro de Tipo de Cobrança" );
+		setTitulo( "Enregistrement de Tipo de Cobrança" );
 		setAtribos( 50, 50, 480, 360 );
 		
 		lcConta.add( new GuardaCampo( txtNumconta, "Numconta", "Número conta", ListaCampos.DB_PK, txtDescconta, false ) );

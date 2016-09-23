@@ -235,7 +235,7 @@ public class FTipoMov extends FTabDados implements RadioGroupListener, CheckBoxL
 
 		nav.setNavigation( true );
 
-		setTitulo( "Cadastro de Tipos de Movimento" );
+		setTitulo( "Enregistrement de Tipos de Movimento" );
 		setAtribos( 50, 40, 720, 588 );
 
 		lcRestricoes.setMaster( lcCampos );

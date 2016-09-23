@@ -190,7 +190,7 @@ public class FVendedor extends FTabDados implements PostListener {
 
 		nav.setNavigation( true );
 
-		setTitulo( "Cadastro de comissionados" );
+		setTitulo( "Enregistrement de comissionados" );
 		setAtribos( 50, 10, 440, 690 );
 
 		lcPlan.add( new GuardaCampo( txtCodPlan, "CodPlan", "Cód.plan.", ListaCampos.DB_PK, txtDescPlan, false ) );

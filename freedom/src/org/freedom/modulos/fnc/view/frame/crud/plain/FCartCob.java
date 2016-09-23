@@ -57,7 +57,7 @@ public class FCartCob extends FDados implements ActionListener {
 	public FCartCob() {
 
 		super();
-		setTitulo( "Cadastro de carteiras de cobrança" );
+		setTitulo( "Enregistrement de carteiras de cobrança" );
 		setAtribos( 50, 50, 420, 200 );
 
 		montaListaCampos();

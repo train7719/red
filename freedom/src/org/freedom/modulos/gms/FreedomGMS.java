@@ -168,7 +168,7 @@ public class FreedomGMS extends AplicativoPD {
 
 		super( "icongms.png", "splashGMS.png", 1, "Freedom", 8, "Gestão de Materiais e Serviços", null, new FPrincipalPD( null, "bgFreedom2.jpg" ), LoginPD.class );
 
-		addOpcao( -1, TP_OPCAO_MENU, "Arquivo", "", 'A', 100000000, 0, false, null );
+		addOpcao( -1, TP_OPCAO_MENU, "Fichier", "", 'A', 100000000, 0, false, null );
 		addOpcao( 100000000, TP_OPCAO_MENU, "Cadastros", "", 'T', 100100000, 1, false, null );
 		addOpcao( 100100000, TP_OPCAO_MENU, "Clientes", "", 'C', 100101000, 2, false, null );
 		addOpcao( 100101000, TP_OPCAO_ITEM, "Clientes", "Clientes", 'C', 100101010, 3, true, FCliente.class );
@@ -336,7 +336,7 @@ public class FreedomGMS extends AplicativoPD {
 		addOpcao( 500000000, TP_OPCAO_ITEM, "Recepção de matéria prima", "Recepção de matéria prima", 'R', 500200000, 1, true, FRecMerc.class );
 		addOpcao( 500000000, TP_OPCAO_ITEM, "Coleta de materiais", "Coleta de materiais", 'C', 500400000, 1, true, FColeta.class );
 		addSeparador( 500000000 );
-		addOpcao( 500000000, TP_OPCAO_ITEM, "Tipos de Recepção", "Cadastro de tipos de recepção de mercadorias", 'T', 500300000, 1, true, FTipoRecMerc.class );
+		addOpcao( 500000000, TP_OPCAO_ITEM, "Tipos de Recepção", "Enregistrement de tipos de recepção de mercadorias", 'T', 500300000, 1, true, FTipoRecMerc.class );
 		addSeparador( 500000000 );
 		addOpcao( 500000000, TP_OPCAO_MENU, "Listes", "", 'L', 500500000, 1, false, null );
 		addOpcao( 500500000, TP_OPCAO_ITEM, "Coletas por dia", "Coletas por dia", 'o', 500501000, 2, true, FRColetas.class );
@@ -348,7 +348,7 @@ public class FreedomGMS extends AplicativoPD {
 		addOpcao( 600000000, TP_OPCAO_ITEM, "Painel de controle", "Painel de Controle", 'P', 600100000, 1, true, FControleExpedicao.class );
 		addSeparador( 600000000 );
 		addOpcao( 600000000, TP_OPCAO_ITEM, "Expedição de produto acabado", "Expedição de produto acabado", 'R', 600200000, 1, true, FExpedicao.class );
-		addOpcao( 600000000, TP_OPCAO_ITEM, "Tipos de Expedição", "Cadastro de tipos de expedição de produtos", 'T', 600300000, 1, true, FTipoExpedicao.class );
+		addOpcao( 600000000, TP_OPCAO_ITEM, "Tipos de Expedição", "Enregistrement de tipos de expedição de produtos", 'T', 600300000, 1, true, FTipoExpedicao.class );
 		addSeparador( 600000000 );
 
 		addOpcao( 600000000, TP_OPCAO_ITEM, "Pesquisa requisição de material", "Pesquisa requisição de material", 'm', 600100000, 1, true, FConsRMA.class );
@@ -410,8 +410,8 @@ public class FreedomGMS extends AplicativoPD {
 		addBotao( "btConFrete.png", "Conhecimento de Frete", "Conhecimento de Frete", 200300000, FConhecFrete.class );
 
 		addBotao( "btEstoque.png", "Consulta estoque", "Consulta", 400300000, FConsEstoque.class );
-		addBotao( "btProduto.png", "Cadastro de produtos", "Produtos", 100103090, FProduto.class );
-		addBotao( "btSimilar.png", "Cadastro de similaridades", "Similaridade", 100103080, FSimilar.class );
+		addBotao( "btProduto.png", "Enregistrement de produtos", "Produtos", 100103090, FProduto.class );
+		addBotao( "btSimilar.png", "Enregistrement de similaridades", "Similaridade", 100103080, FSimilar.class );
 		addBotao( "btOrcamento.png", "Orçamento", "Orcamento", 300600000, FOrcamento.class );
 		addBotao( "btConsOrcamento.png", "Pesquisa Orçamentos", "Pesquisa Orcamentos", 300700000, FPesquisaOrc.class );
 		addBotao( "btAprovaOrc.png", "Aprovações de Orçamentos", "Aprova Orcamento", 300500000, FAprovCancOrc.class );

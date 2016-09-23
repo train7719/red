@@ -55,7 +55,7 @@ public class FUnidade extends FDados implements ActionListener {
 	public FUnidade() {
 
 		super();
-		setTitulo( "Cadastro de Unidades" );
+		setTitulo( "Enregistrement de Unidades" );
 		setAtribos( 50, 50, 450, 160 );
 		adicCampo( txtCodUnidade, 7, 20, 110, 20, "CodUnid", "Cód.unid.", ListaCampos.DB_PK, true );
 		adicCampo( txtDescUnidade, 120, 20, 300, 20, "DescUnid", "Descrição da unidade", ListaCampos.DB_SI, true );

@@ -229,7 +229,7 @@ public class FCandidato extends FTabDados implements CarregaListener, PostListen
 	public FCandidato() {
 
 		super( true );
-		setTitulo( "Cadastro de Candidatos" );
+		setTitulo( "inscription des candidats '" );
 		setAtribos( 50, 50, 560, 400 );
 
 		cbIsencTransp.setVlrString( "N" );
@@ -420,7 +420,7 @@ public class FCandidato extends FTabDados implements CarregaListener, PostListen
 
 		// Aba cursos
 
-		adicTab( "Cursos", panelCurso );
+		adicTab( "Cours", panelCurso );
 		setPainel( panelCurso );
 
 		setListaCampos( lcCursoCand );
@@ -658,7 +658,7 @@ public class FCandidato extends FTabDados implements CarregaListener, PostListen
 
 				ResultSet rs = ps.executeQuery();
 
-				FPrinterJob dlGr = new FPrinterJob( "relatorios/grhCandidato.jasper", "Lista de Candidatos", null, rs, hParam, this );
+				FPrinterJob dlGr = new FPrinterJob( "relatorios/grhCandidato.jasper", "Liste des candidats", null, rs, hParam, this );
 
 				if ( bVisualizar==TYPE_PRINT.VIEW ) {
 					dlGr.preview();

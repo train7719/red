@@ -232,7 +232,7 @@ public class FEmpregado extends FTabDados implements KeyListener, CarregaListene
 	public FEmpregado() {
 
 		super();
-		setTitulo( "Cadastro de Empregados" );
+		setTitulo( "Enregistrement des employées" );
 		setAtribos( 50, 50, 510, 630 );
 
 		lcEmpSal.setMaster( lcCampos );

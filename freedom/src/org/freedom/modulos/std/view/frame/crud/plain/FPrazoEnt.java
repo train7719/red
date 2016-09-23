@@ -51,7 +51,7 @@ public class FPrazoEnt extends FDados implements ActionListener {
 	public FPrazoEnt() {
 
 		super();
-		setTitulo( "Cadastro de Prazo de Entrega" );
+		setTitulo( "Enregistrement de Prazo de Entrega" );
 		setAtribos( 50, 50, 410, 125 );
 		adicCampo( txtCodPE, 7, 20, 70, 20, "CodPE", "Cód.p.ent.", ListaCampos.DB_PK, true );
 		adicCampo( txtDescPE, 80, 20, 200, 20, "DescPE", "Descrição do prazo de entrega", ListaCampos.DB_SI, true );

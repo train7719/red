@@ -230,7 +230,7 @@ public class FTransp extends FTabDados implements PostListener, RadioGroupListen
 
 		super();
 		
-		setTitulo( "Cadastro de Transportadoras" );
+		setTitulo( "Enregistrement de Transportadoras" );
 		setAtribos( 20, 20, 580, 590 ); 
 
 		lcCampos.addInsertListener( this );
@@ -1240,7 +1240,7 @@ public class FTransp extends FTabDados implements PostListener, RadioGroupListen
 		}
 		else {
 			veiculo = new FVeiculo();
-			Aplicativo.telaPrincipal.criatela( "Cadastro de veículos", veiculo, con );
+			Aplicativo.telaPrincipal.criatela( "Enregistrement de veículos", veiculo, con );
 		}
 
 		veiculo.exec( (Integer) tabVeiculos.getValor( tabVeiculos.getLinhaSel(), enum_tabVeiculos.CODVEIC.ordinal() ), this );
@@ -1255,7 +1255,7 @@ public class FTransp extends FTabDados implements PostListener, RadioGroupListen
 
 		
 			veiculo = new FVeiculo();
-			Aplicativo.telaPrincipal.criatela( "Cadastro de veículos", veiculo, con, false );
+			Aplicativo.telaPrincipal.criatela( "Enregistrement de veículos", veiculo, con, false );
 
 			DLF2 f2 = new DLF2( veiculo.lcCampos, veiculo );
 			
@@ -1294,7 +1294,7 @@ public class FTransp extends FTabDados implements PostListener, RadioGroupListen
 		}
 		else {
 			motorista = new FMotorista();
-			Aplicativo.telaPrincipal.criatela( "Cadastro de veículos", motorista, con );
+			Aplicativo.telaPrincipal.criatela( "Enregistrement de veículos", motorista, con );
 		}
 
 		motorista.exec( (Integer) tabMotoristas.getValor( tabMotoristas.getLinhaSel(), enum_tabMotoristas.CODMOT.ordinal() ), this );
@@ -1308,7 +1308,7 @@ public class FTransp extends FTabDados implements PostListener, RadioGroupListen
 			FMotorista motorista = null;
 		
 			motorista = new FMotorista();
-			Aplicativo.telaPrincipal.criatela( "Cadastro de motoristas", motorista, con, false );
+			Aplicativo.telaPrincipal.criatela( "Enregistrement de motoristas", motorista, con, false );
 
 			DLF2 f2 = new DLF2( motorista.lcCampos, motorista );
 			
@@ -1348,7 +1348,7 @@ public class FTransp extends FTabDados implements PostListener, RadioGroupListen
 			}
 			else {
 				veiculo = new FVeiculo();
-				Aplicativo.telaPrincipal.criatela( "Cadastro de veículos", veiculo, con );
+				Aplicativo.telaPrincipal.criatela( "Enregistrement de veículos", veiculo, con );
 			}
 
 			veiculo.novo( this );
@@ -1376,7 +1376,7 @@ public class FTransp extends FTabDados implements PostListener, RadioGroupListen
 			}
 			else {
 				motorista = new FMotorista();
-				Aplicativo.telaPrincipal.criatela( "Cadastro de veículos", motorista, con );
+				Aplicativo.telaPrincipal.criatela( "Enregistrement de veículos", motorista, con );
 			}
 
 			motorista.novo( this );

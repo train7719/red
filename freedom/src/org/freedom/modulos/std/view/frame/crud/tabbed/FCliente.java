@@ -706,7 +706,7 @@ public class FCliente extends FTabDados implements RadioGroupListener, PostListe
 
 		super();
 
-		setTitulo( "Cadastro de Clientes" );
+		setTitulo( "Enregistrement de Clientes" );
 		setAtribos( 50, 20, 545, 720 );
 
 		lcCliFor.setMaster( lcCampos );

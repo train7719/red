@@ -54,7 +54,7 @@ public class FItNatoper extends FDetalhe {
 
 	public FItNatoper() {
 
-		setTitulo( "Cadastro de alíquotas por estado" );
+		setTitulo( "Enregistrement de alíquotas por estado" );
 		setAtribos( 50, 50, 430, 300 );
 
 		txtCodNat.setAtivo( false );

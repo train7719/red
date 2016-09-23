@@ -64,7 +64,7 @@ public class RPContato extends FDados implements ActionListener {
 	public RPContato() {
 
 		super( false );
-		setTitulo( "Cadastro de contato" );
+		setTitulo( "Enregistrement de contato" );
 		setAtribos( 50, 50, 435, 300 );
 
 		montaTela();

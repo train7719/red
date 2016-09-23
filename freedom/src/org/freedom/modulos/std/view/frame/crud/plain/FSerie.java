@@ -60,7 +60,7 @@ public class FSerie extends FDados implements ActionListener, CarregaListener {
 	public FSerie() {
 
 		super( false );
-		setTitulo( "Cadastro de Série de Notas" );
+		setTitulo( "Enregistrement de Série de Notas" );
 		setAtribos( 50, 50, 310, 160 );
 
 		btReset.setToolTipText( "Reiniciar contagem" );

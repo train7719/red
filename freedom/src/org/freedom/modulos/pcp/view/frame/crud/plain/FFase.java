@@ -60,7 +60,7 @@ public class FFase extends FDados implements ActionListener {
 	public FFase() {
 
 		super();
-		setTitulo( "Cadastro de fases de produção" );
+		setTitulo( "Enregistrement de fases de produção" );
 		setAtribos( 50, 350, 350, 165 );
 
 		// Construindo o combobox de tipo.

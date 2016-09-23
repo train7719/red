@@ -738,7 +738,7 @@ public class FPrefereFBB extends FTabDados implements CarregaListener, JComboBox
 		
 		vLabsInstr = new Vector<String>();
 		vValsInstr = new Vector<Integer>();
-		vLabsInstr.addElement( "Cadastro de título" );
+		vLabsInstr.addElement( "Enregistrement de título" );
 		vLabsInstr.addElement( "Pedido de baixa" );
 		vLabsInstr.addElement( "Concessão de abatimento" );
 		vLabsInstr.addElement( "Cancelamento de abatimento concedido" );

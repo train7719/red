@@ -254,7 +254,7 @@ public class DAOTrocaRefprod extends AbstractDAO {
 	private StringBuilder getMensagemLog( Change value, Table table, SIT_LOG_TROCARP situacao, Exception e ) {
 
 		StringBuilder result = new StringBuilder();
-		result.append( "Tabela: " );
+		result.append( "Table: " );
 		result.append( table.getTable_name() );
 		result.append( " Campo: " );
 		result.append( table.getField_name() );

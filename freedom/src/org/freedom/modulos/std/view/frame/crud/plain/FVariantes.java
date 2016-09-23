@@ -61,7 +61,7 @@ public class FVariantes extends FDetalhe implements ActionListener {
 	public FVariantes() {
 
 		super();
-		setTitulo( "Cadastro de Variantes da Grade" );
+		setTitulo( "Enregistrement de Variantes da Grade" );
 		nav.setNavigation( true );
 		setAtribos( 50, 50, 700, 400 );
 		montaListaCampos();

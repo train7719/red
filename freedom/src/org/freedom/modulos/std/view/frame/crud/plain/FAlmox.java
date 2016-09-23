@@ -48,7 +48,7 @@ public class FAlmox extends FDados implements ActionListener {
 	public FAlmox() {
 
 		super();
-		setTitulo( "Cadastro de Almoxarifado" );
+		setTitulo( "Enregistrement de Almoxarifado" );
 		setAtribos( 50, 50, 350, 125 );
 		adicCampo( txtCodAlmox, 7, 20, 70, 20, "CodAlmox", "Cód.almox.", ListaCampos.DB_PK, true );
 		adicCampo( txtDescAlmox, 80, 20, 250, 20, "DescAlmox", "Descrição do almoxarifado", ListaCampos.DB_SI, true );

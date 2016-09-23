@@ -67,7 +67,7 @@ public class FTarefa extends FDados implements ActionListener {
 	public FTarefa() {
 
 		super();
-		setTitulo( "Cadastro de tarefas" );
+		setTitulo( "Enregistrement de tarefas" );
 		setAtribos( 50, 50, 330, 205 );
 
 		// Montando tipos:

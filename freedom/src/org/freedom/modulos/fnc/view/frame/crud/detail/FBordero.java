@@ -50,7 +50,7 @@ import org.freedom.library.type.TYPE_PRINT;
 import org.freedom.modulos.fnc.view.frame.crud.tabbed.FConta;
 
 /**
- * Cadastro bordero de recebíveis.
+ * Enregistrement bordero de recebíveis.
  * 
  * @author Setpoint Informática Ltda./Alex Rodrigues
  * @version 26/08/2009

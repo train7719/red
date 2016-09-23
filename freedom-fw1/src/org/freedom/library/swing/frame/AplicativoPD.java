@@ -774,7 +774,7 @@ public class AplicativoPD extends Aplicativo implements ActionListener, KeyListe
 			// Funcoes.mensagemErro( null,
 			// "Não foi possível carregar as informações para envio de email!\n"
 			// + e.getMessage() );
-			System.out.println("Não foi possível carregar as informações para envio de email, através dos dados do usuário!\n" + e.getMessage());
+			System.out.println("Could not load the information for sending e-mail via the user data!\n" + e.getMessage());
 		}
 
 	}
@@ -809,7 +809,7 @@ public class AplicativoPD extends Aplicativo implements ActionListener, KeyListe
 			con.commit();
 		}
 		catch (SQLException e) {
-			Funcoes.mensagemErro(null, "Não foi possível carregar as informações para envio de emial!\n" + e.getMessage());
+			Funcoes.mensagemErro(null, "Impossible de charger les informations pour l'envoi d'e-mail!\n" + e.getMessage());
 		}
 
 	}
@@ -839,7 +839,7 @@ public class AplicativoPD extends Aplicativo implements ActionListener, KeyListe
 			setEmailBean(email);
 		}
 		catch (SQLException e) {
-			Funcoes.mensagemErro(null, "Não foi gravar as alterações de configuração de email!\n" + e.getMessage());
+			Funcoes.mensagemErro(null, "n'a pas écrit les modifications de configuration de messagerie!\n" + e.getMessage());
 		}
 
 	}

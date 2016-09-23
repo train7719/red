@@ -42,7 +42,7 @@ public class FTipoChamado extends FDados implements ActionListener {
 
 		nav.setNavigation( true );
 
-		setTitulo( "Cadastro de Tipo de Chamados" );
+		setTitulo( "Enregistrement de Tipo de Chamados" );
 		setAtribos( 50, 50, 380, 145 );
 
 		adicCampo( txtCodChamado, 7, 20, 70, 20, "CodTpChamado", "Cód.tp.cham.", ListaCampos.DB_PK, true );

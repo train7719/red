@@ -74,7 +74,7 @@ public class RPCotMoeda extends FDados implements InsertListener, CarregaListene
 	public RPCotMoeda() {
 
 		super( false );
-		setTitulo( "Cadastro de Moedas" );
+		setTitulo( "Enregistrement de Moedas" );
 		setAtribos( 50, 50, 425, 270 );
 
 		montaListaCampos();

@@ -762,7 +762,7 @@ public class FCredCli extends FTabDados implements ActionListener, CarregaListen
 		adicCampo( txtRazCli, 80, 20, 257, 20, "RazCli", "Razão social do cliente", ListaCampos.DB_SI, false );
 		adicCampoInvisivel( txtCodTipoCli, "CodTipoCli", "Cód.tp.cli", ListaCampos.DB_FK, txtDescTipoCli, false );
 		adicDescFK( txtDescTipoCli, 340, 20, 130, 20, "DescTipoCli", "Desc. tipo de cliente" );
-		adicCampo( txtDataCli, 473, 20, 95, 20, "DataCli", "Cadastro", ListaCampos.DB_SI, false );
+		adicCampo( txtDataCli, 473, 20, 95, 20, "DataCli", "Enregistrement", ListaCampos.DB_SI, false );
 		adicCampo( txtCodTpCred, 7, 60, 70, 20, "CodTpCred", "Cód.tp.cred", ListaCampos.DB_FK, txtDescTpCred, true );
 		adicDescFK( txtDescTpCred, 80, 60, 212, 20, "DescTpCred", "Descrição do crédito" );
 		adicDescFK( txtVlrTpCred, 295, 60, 107, 20, "VlrTpCred", "Valor" );

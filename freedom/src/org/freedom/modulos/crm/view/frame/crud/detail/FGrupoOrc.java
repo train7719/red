@@ -17,7 +17,7 @@
  *         escreva para a Fundação do Software Livre(FSF) Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA <BR>
  * <BR>
  * 			
- *         Cadastro de GrupoOrc   
+ *         Enregistrement de GrupoOrc   
  * 
  */
 
@@ -64,7 +64,7 @@ public class FGrupoOrc extends FDetalhe implements ActionListener {
 
 		nav.setNavigation( true );
 
-		setTitulo( "Cadastro de Grupo de Orçamento" );
+		setTitulo( "Enregistrement de Grupo de Orçamento" );
 		setAtribos( 50, 50, 550, 450 );
 
 		setAltCab( 90 );

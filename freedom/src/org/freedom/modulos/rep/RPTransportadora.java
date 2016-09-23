@@ -68,7 +68,7 @@ public class RPTransportadora extends FDados implements ActionListener {
 	public RPTransportadora() {
 
 		super( false );
-		setTitulo( "Cadastro de Trannecedores" );
+		setTitulo( "Enregistrement de Trannecedores" );
 		setAtribos( 50, 50, 435, 380 );
 
 		montaTela();

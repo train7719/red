@@ -118,7 +118,7 @@ public class FDetOrc extends FDetalhe implements ActionListener, CarregaListener
 
 		nav.setNavigation( true );
 
-		setTitulo( "Cadastro de Detalhamento de Orçamento" );
+		setTitulo( "Enregistrement de Detalhamento de Orçamento" );
 		setAtribos( 50, 50, 790, 490 );
 
 		setAltCab( 190 );

@@ -224,7 +224,7 @@ public class FEmpresa extends FDetalhe {
 
 	public FEmpresa() {
 
-		setTitulo( "Cadastro de Empresa" );
+		setTitulo( "Enregistrement de Empresa" );
 		setAtribos( 50, 50, 530, 730 );
 
 		lcCampos.setUsaME( false );

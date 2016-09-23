@@ -56,7 +56,7 @@ public class FQualificacao extends FDados implements ActionListener {
 
 		nav.setNavigation( true );
 
-		setTitulo( "Cadastro de Qualificações" );
+		setTitulo( "Enregistrement de Qualificações" );
 		
 		setAtribos( 50, 50, 405, 200 );
 		

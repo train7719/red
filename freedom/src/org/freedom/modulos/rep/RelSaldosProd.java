@@ -64,7 +64,7 @@ public class RelSaldosProd extends FRelatorio {
 	public RelSaldosProd() {
 
 		super( false );
-		setTitulo( "Tabela com saldo" );
+		setTitulo( "Tableau avec le solde" );
 		setAtribos( 50, 50, 325, 200 );
 
 		montaListaCampos();

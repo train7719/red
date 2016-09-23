@@ -62,7 +62,7 @@ public class FCLComis extends FDados implements PostListener {
 	public FCLComis() {
 
 		super();
-		setTitulo( "Cadastro de Classificação de Comissões" );
+		setTitulo( "Enregistrement de Classificação de Comissões" );
 		setAtribos( 50, 50, 400, 205 );
 
 		//setListaCampos( true, "CLCOMIS", "VD" );

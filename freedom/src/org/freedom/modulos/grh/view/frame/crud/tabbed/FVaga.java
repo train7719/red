@@ -137,7 +137,7 @@ public class FVaga extends FTabDados {
 	public FVaga() {
 
 		super( false );
-		setTitulo( "Cadastro de Vagas" );
+		setTitulo( "Enregistrement de Vagas" );
 		setAtribos( 50, 50, 580, 270 );
 
 		lcVagaCaracteristicaQ.setMaster( lcCampos );
@@ -341,7 +341,7 @@ public class FVaga extends FTabDados {
 		hParam.put( "CODEMP", Aplicativo.iCodEmp );
 		hParam.put( "CODFILIAL", ListaCampos.getMasterFilial( "RHVAGA" ) );
 
-		dlGr = new FPrinterJob( "relatorios/grhVagas.jasper", "Lista de Vagas", "", this, hParam, con, null, false );
+		dlGr = new FPrinterJob( "relatorios/grhVagas.jasper", "Liste des Emplois", "", this, hParam, con, null, false );
 
 		if ( bVisualizar==TYPE_PRINT.VIEW ) {
 			dlGr.preview();

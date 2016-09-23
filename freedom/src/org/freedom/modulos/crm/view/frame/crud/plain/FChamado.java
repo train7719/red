@@ -219,7 +219,7 @@ public class FChamado extends FDados implements ActionListener, JComboBoxListene
 
 		nav.setNavigation( true );
 
-		setTitulo( "Cadastro de chamados" );
+		setTitulo( "Enregistrement de chamados" );
 		setAtribos( 50, 50, 640, 800 );
 		montaListaCampos();
 		montaCombos();

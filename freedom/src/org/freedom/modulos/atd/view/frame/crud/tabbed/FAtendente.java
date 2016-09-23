@@ -162,7 +162,7 @@ public class FAtendente extends FTabDados implements CarregaListener, PostListen
 
 		nav.setNavigation( true );
 
-		setTitulo( "Cadastro de Atendentes" );
+		setTitulo( "Enregistrement de Atendentes" );
 		setAtribos( 20, 20, 530, 560 );
 
 		lcTipoAtend.add( new GuardaCampo( txtCodTipoAtend, "CodTpAtend", "Cód.tp.atend.", ListaCampos.DB_PK, false ), "txtCodVendx" );

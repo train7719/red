@@ -40,7 +40,7 @@ public class FTipoCont extends FDados implements ActionListener {
 	public FTipoCont() {
 
 		super();
-		setTitulo( "Cadastro de Tipo de Contatos" );
+		setTitulo( "Enregistrement de Tipo de Contatos" );
 		setAtribos( 50, 50, 380, 145 );
 		adicCampo( txtCodTipoCont, 7, 20, 70, 20, "CodTipoCont", "Cód.tp.cont.", ListaCampos.DB_PK, true );
 		adicCampo( txtDescTipoCont, 80, 20, 250, 20, "DescTipoCont", "Descrição do tipo de contato", ListaCampos.DB_SI, true );
