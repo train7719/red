@@ -121,7 +121,7 @@ public class FreedomGRH extends AplicativoPD {
 			FreedomGRH freedom = new FreedomGRH();
 			freedom.show();
 		} catch ( Throwable e ) {
-			Funcoes.criaTelaErro( "Erro de execução\n\n" + e.getMessage() );
+			Funcoes.criaTelaErro( "Erreur d'exécution\n\n" + e.getMessage() );
 			e.printStackTrace();
 		}
 	}

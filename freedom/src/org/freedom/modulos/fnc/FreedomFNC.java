@@ -1,6 +1,6 @@
 /**
  * @version 29/12/2003 <BR>
- * @author Setpoint Informï¿½tica Ltda./Fernando Oliveira da Silva <BR>
+ * @author Setpoint Informática Ltda./Fernando Oliveira da Silva <BR>
  * 
  *         Projeto: Freedom <BR>
  * 
@@ -8,17 +8,17 @@
  *         Classe:
  * @(#)FreedomFNC.java <BR>
  * 
- *                     Este arquivo ï¿½ parte do sistema Freedom-ERP, o Freedom-ERP ï¿½ um software livre; vocï¿½ pode redistribui-lo e/ou <BR>
- *                     modifica-lo dentro dos termos da Licenï¿½a Pï¿½blica Geral GNU como publicada pela Fundaï¿½ï¿½o do Software Livre (FSF); <BR>
- *                     na versï¿½o 2 da Licenï¿½a, ou (na sua opniï¿½o) qualquer versï¿½o. <BR>
- *                     Este programa ï¿½ distribuido na esperanï¿½a que possa ser util, mas SEM NENHUMA GARANTIA; <BR>
- *                     sem uma garantia implicita de ADEQUAï¿½ï¿½O a qualquer MERCADO ou APLICAï¿½ï¿½O EM PARTICULAR. <BR>
- *                     Veja a Licenï¿½a Pï¿½blica Geral GNU para maiores detalhes. <BR>
- *                     Vocï¿½ deve ter recebido uma cï¿½pia da Licenï¿½a Pï¿½blica Geral GNU junto com este programa, se nï¿½o, <BR>
+ *                     Este arquivo é parte do sistema Freedom-ERP, o Freedom-ERP é um software livre; você pode redistribui-lo e/ou <BR>
+ *                     modifica-lo dentro dos termos da Licença Pública Geral GNU como publicada pela Fundação do Software Livre (FSF); <BR>
+ *                     na versão 2 da Licença, ou (na sua opnião) qualquer versão. <BR>
+ *                     Este programa é distribuido na esperança que possa ser util, mas SEM NENHUMA GARANTIA; <BR>
+ *                     sem uma garantia implicita de ADEQUAÇÂO a qualquer MERCADO ou APLICAÇÃO EM PARTICULAR. <BR>
+ *                     Veja a Licença Pública Geral GNU para maiores detalhes. <BR>
+ *                     Você deve ter recebido uma cópia da Licença Pública Geral GNU junto com este programa, se não, <BR>
  *                     de acordo com os termos da LPG-PC <BR>
  * <BR>
  * 
- *                     Tela principal do mï¿½dulo financeiro.
+ *                     Tela principal do módulo financeiro.
  * 
  */
 
@@ -113,7 +113,7 @@ public class FreedomFNC extends AplicativoPD {
 
 	public FreedomFNC() {
 
-		super( "iconfnc.png", "splashFNC.png", 1, "RedTech", 6, "Gestion Commerciale", null, new FPrincipalPD( null, "bgFreedom2.jpg" ), LoginPD.class );
+	super( "iconfnc.png", "splashFNC.png", 1, "RedTech", 6, "Gestion Commerciale", null, new FPrincipalPD( null, "bgFreedom2.jpg" ), LoginPD.class );
 
 		addOpcao( -1, TP_OPCAO_MENU, "Fichier", "", 'A', 100000000, 0, false, null );
 		addOpcao( 100000000, TP_OPCAO_MENU, "Tables", "", 'T', 100100000, 1, false, null );
@@ -128,8 +128,8 @@ public class FreedomFNC extends AplicativoPD {
 		addSeparador( 100100000 );
 		addOpcao( 100100000, TP_OPCAO_ITEM, "devis", "devis", 'M', 100102000, 2, true, FMoeda.class );
 		addOpcao( 100100000, TP_OPCAO_ITEM, "Banque", "Banque", 'B', 100103000, 2, true, FBanco.class );
-		addOpcao( 100100000, TP_OPCAO_ITEM, "Type de collection", "TypeCol", 'T', 100104000, 2, true, FTipoCob.class );
-		addOpcao( 100100000, TP_OPCAO_ITEM, "portefeuille de collection", "portefeuille de collection", 'C', 100105000, 2, true, FCartCob.class );
+		addOpcao( 100100000, TP_OPCAO_ITEM, "Type de facture", "TypeCol", 'T', 100104000, 2, true, FTipoCob.class );
+		addOpcao( 100100000, TP_OPCAO_ITEM, "portefeuille de facture", "portefeuille de facture", 'C', 100105000, 2, true, FCartCob.class );
 		addOpcao( 100100000, TP_OPCAO_ITEM, "Plan de paiement", "PlanPaie", 'P', 100106000, 2, true, FPlanoPag.class );
 		addOpcao( 100100000, TP_OPCAO_ITEM, "Vacances", "Vacances", 'F', 100107000, 2, true, FFeriados.class );
 		addSeparador( 100100000 );
@@ -142,7 +142,7 @@ public class FreedomFNC extends AplicativoPD {
 		addOpcao( 100000000, TP_OPCAO_MENU, "Outils", "", 'F', 100200000, 1, false, null );
 		addOpcao( 100200000, TP_OPCAO_ITEM, "convertir entre les catégories", "convertir entre les catégories", 'F', 100200010, 1, true, FTrnsLancCat.class );
 		addOpcao( 100000000, TP_OPCAO_MENU, "Préférences", "", 'P', 100300000, 1, false, null );
-		addOpcao( 100300000, TP_OPCAO_ITEM, "Préférences Commerciale", "Prï¿½fï¿½rences Commerciale", 'P', 100310000, 2, true, FPrefereFNC.class );
+		addOpcao( 100300000, TP_OPCAO_ITEM, "Préférences Commerciale", "Préfï¿½rences Commerciale", 'P', 100310000, 2, true, FPrefereFNC.class );
 		addOpcao( 100300000, TP_OPCAO_ITEM, "Préférences ban", "Préférences ban", 'F', 100310000, 2, true, FPrefereFBB.class );
 		// addSeparador( 100100000 );
 		addOpcao( 100000000, TP_OPCAO_MENU, "Réglages", "", 'C', 100400000, 1, false, null );
@@ -153,101 +153,101 @@ public class FreedomFNC extends AplicativoPD {
 		addOpcao( 100400000, TP_OPCAO_ITEM, "Entreprise", "Entreprise", 'E', 100404000, 2, true, FEmpresa.class );
 
 		addOpcao( -1, TP_OPCAO_MENU, "Payer", "", 'P', 200000000, 0, false, null );
-		addOpcao( 200000000, TP_OPCAO_ITEM, "Maintenance", "comptes de maintenance payables", 'M', 200100000, 1, true, FManutPag.class );
+		addOpcao( 200000000, TP_OPCAO_ITEM, "Maintenance", "Factures à payer", 'M', 200100000, 1, true, FManutPag.class );
 		addOpcao( 200000000, TP_OPCAO_MENU, "Listes", "", 'L', 200200000, 1, false, null );
-		addOpcao( 200200000, TP_OPCAO_ITEM, "Pagar/Pagas", "Pagar/Pagas", 'P', 200201000, 2, true, FRPagar.class );
-		addOpcao( 200200000, TP_OPCAO_ITEM, "Razï¿½o", "Razï¿½o", 'R', 200202000, 2, true, FRRazFor.class );
+		addOpcao( 200200000, TP_OPCAO_ITEM, "Recevoir/payer", "Recevoir/payer", 'P', 200201000, 2, true, FRPagar.class );
+		addOpcao( 200200000, TP_OPCAO_ITEM, "Justification", "Justification", 'R', 200202000, 2, true, FRRazFor.class );
 		addSeparador( 200000000 );
-		addOpcao( 200000000, TP_OPCAO_ITEM, "Emissï¿½o de cheques", "Emissï¿½o de cheques", 'm', 200300000, 2, true, FPagCheque.class );
+		addOpcao( 200000000, TP_OPCAO_ITEM, "Emission des chèques", "Emission des chèques", 'm', 200300000, 2, true, FPagCheque.class );
 
 		addOpcao( -1, TP_OPCAO_MENU, "Recevoir", "", 'R', 300000000, 0, false, null );
-		addOpcao( 300000000, TP_OPCAO_ITEM, "Maintenance", "Manutenï¿½ï¿½o de contas a receber", 'M', 300100000, 1, true, FManutRec.class );
+		addOpcao( 300000000, TP_OPCAO_ITEM, "Maintenance", "Maintenance des comptes à recevoir", 'M', 300100000, 1, true, FManutRec.class );
 		addOpcao( 300000000, TP_OPCAO_ITEM, "Bordero", "Bordero", 'B', 300200000, 1, true, FBordero.class );
 		addOpcao( 300000000, TP_OPCAO_MENU, "Febraban", "", 'F', 300300000, 1, false, null );
 		addOpcao( 300300000, TP_OPCAO_MENU, "SIACC", "SIACC", 'S', 300301000, 2, false, null );
-		addOpcao( 300301000, TP_OPCAO_ITEM, "Remessa", "Remessa Siacc", 'm', 300301010, 2, true, FRemSiacc.class );
-		addOpcao( 300301000, TP_OPCAO_ITEM, "Retorno", "Retorno Siacc", 't', 300301020, 2, true, FRetSiacc.class );
+		addOpcao( 300301000, TP_OPCAO_ITEM, "Rémitance", "Rémitance Siacc", 'm', 300301010, 2, true, FRemSiacc.class );
+		addOpcao( 300301000, TP_OPCAO_ITEM, "Retour", "etour Siacc", 't', 300301020, 2, true, FRetSiacc.class );
 		addOpcao( 300300000, TP_OPCAO_MENU, "CNAB", "CNAB", 'C', 300302000, 2, false, null );
-		addOpcao( 300302000, TP_OPCAO_ITEM, "Remessa", "Remessa Cnab", 'm', 300302010, 2, true, FRemCnab.class );
-		addOpcao( 300302000, TP_OPCAO_ITEM, "Retorno", "Retorno Cnab", 't', 300302020, 2, true, FRetCnab.class );
+		addOpcao( 300302000, TP_OPCAO_ITEM, "Rémitance", "Rémitance Cnab", 'm', 300302010, 2, true, FRemCnab.class );
+		addOpcao( 300302000, TP_OPCAO_ITEM, "Retour", "Retour Cnab", 't', 300302020, 2, true, FRetCnab.class );
 		addOpcao( 300000000, TP_OPCAO_MENU, "Listes", "", 'L', 300400000, 1, false, null );
-		addOpcao( 300400000, TP_OPCAO_ITEM, "Receber/Recebidas", "Receber/Recebidas", 'R', 300401000, 2, true, FRReceber.class );
-		addOpcao( 300400000, TP_OPCAO_ITEM, "Inadimplentes", "Inadimplentes", 'I', 300402000, 2, true, FRInadimplentes.class );
-		addOpcao( 300400000, TP_OPCAO_ITEM, "Bordero de cobranï¿½a", "Bordero de cobranï¿½a", 'B', 300403000, 2, true, FRBordero.class );
-		addOpcao( 300400000, TP_OPCAO_ITEM, "Descontos por setor", "Descontos por setor", 'D', 300404000, 2, true, FRReceberSetor.class );
-		addOpcao( 300400000, TP_OPCAO_ITEM, "Razï¿½o", "Razï¿½o", 'R', 300405000, 2, true, FRRazCli.class );
-		addOpcao( 300400000, TP_OPCAO_ITEM, "Recebimentos por Mï¿½s", "Recebimentos por Mï¿½s", 'M', 300407000, 2, true, FRReceberMes.class );
-		addOpcao( 300400000, TP_OPCAO_ITEM, "Relatï¿½rio de cobranï¿½a", "Relatï¿½rio de cobranï¿½a", 'o', 300408000, 2, true, FRCobranca.class );
-		addOpcao( 300400000, TP_OPCAO_ITEM, "Carta de cobranï¿½a", "Carta de cobranï¿½a", 'C', 300409000, 2, true, FRCartaCobranca.class );
+		addOpcao( 300400000, TP_OPCAO_ITEM, "Recevoir/Reçu", "Recevoir/Reçu", 'R', 300401000, 2, true, FRReceber.class );
+		addOpcao( 300400000, TP_OPCAO_ITEM, "abandons", "abandons", 'I', 300402000, 2, true, FRInadimplentes.class );
+		addOpcao( 300400000, TP_OPCAO_ITEM, "facture Bordero", "facture Bordero", 'B', 300403000, 2, true, FRBordero.class );
+		addOpcao( 300400000, TP_OPCAO_ITEM, "Remises par secteur", "Remises par secteur", 'D', 300404000, 2, true, FRReceberSetor.class );
+		addOpcao( 300400000, TP_OPCAO_ITEM, "Justification", "Justification", 'R', 300405000, 2, true, FRRazCli.class );
+		addOpcao( 300400000, TP_OPCAO_ITEM, "Reçus par mois", "Reçus par mois", 'M', 300407000, 2, true, FRReceberMes.class );
+		addOpcao( 300400000, TP_OPCAO_ITEM, "Rapport sur la facturation", "Rapport sur la facturation", 'o', 300408000, 2, true, FRCobranca.class );
+		addOpcao( 300400000, TP_OPCAO_ITEM, "Lettre de facturation", "Lettre de facturation", 'C', 300409000, 2, true, FRCartaCobranca.class );
 
 		addSeparador( 300000000 );
-		addOpcao( 300000000, TP_OPCAO_MENU, "Projetos/Contratos", "", 'P', 300500000, 1, false, null );
-		addOpcao( 300500000, TP_OPCAO_ITEM, "Projetos", "Projetos/Contratos", 'P', 300501000, 2, true, FContrato.class );
-		addOpcao( 300500000, TP_OPCAO_ITEM, "Finaliza Projetos/Contratos", "Finaliza Projetos/Contratos", 'P', 300502000, 2, true, FFinalizaProjeto.class );
+		addOpcao( 300000000, TP_OPCAO_MENU, "Projets/Contrats", "", 'P', 300500000, 1, false, null );
+		addOpcao( 300500000, TP_OPCAO_ITEM, "Projets", "Projets/Contrats", 'P', 300501000, 2, true, FContrato.class );
+		addOpcao( 300500000, TP_OPCAO_ITEM, "Projets/Contrats finis", "Projets/Contrats finis", 'P', 300502000, 2, true, FFinalizaProjeto.class );
 		addSeparador( 300500000 );
-		addOpcao( 300500000, TP_OPCAO_ITEM, "Marcador", "Marcador", 'P', 300503000, 2, true, FMarcador.class );
+		addOpcao( 300500000, TP_OPCAO_ITEM, "Marqueur", "Marqueur", 'P', 300503000, 2, true, FMarcador.class );
 		addSeparador( 300500000 );
-		addOpcao( 300500000, TP_OPCAO_ITEM, "Tarefas/Subtarefas", "Tarefas/Subtarefas", 'T', 300504000, 2, true, FTarefa.class );
-		addOpcao( 300500000, TP_OPCAO_ITEM, "Situaï¿½ï¿½o Projeto/Contratos", "Situaï¿½ï¿½o Projeto/Contratos", 'S', 300506000, 2, true, FSitContr.class );
-		addOpcao( 300500000, TP_OPCAO_ITEM, "Gestï¿½o de Projetos/Contratos", "Gestï¿½o de Projetos/Contratos", 'G', 300507000, 2, true, FGestaoProj.class );
-		addOpcao( 300500000, TP_OPCAO_ITEM, "Modelo do Contrato", "Modelo do Contrato", 'M', 300508000, 2, true, FModContr.class );
-		addOpcao( -1, TP_OPCAO_MENU, "financiï¿½re", "", 'F', 400000000, 0, false, null );
-		addOpcao( 400000000, TP_OPCAO_MENU, "Boleto/Recibo", "", 'o', 400100000, 1, false, null );
-		addOpcao( 400100000, TP_OPCAO_ITEM, "Modelo", "Modelo de boleto/recibo", 'M', 400101000, 2, true, FModBoleto.class );
-		addOpcao( 400100000, TP_OPCAO_ITEM, "Imprimir", "Boleto/Recibo", 'I', 400101000, 2, true, FRBoleto.class );
-		addOpcao( 400000000, TP_OPCAO_ITEM, "Banco", "Banco", 'B', 400200000, 1, true, FBanco.class );
-		addOpcao( 400000000, TP_OPCAO_ITEM, "Planejamento", "Planejamento", 'P', 400300000, 1, true, FPlanejamento.class );
-		addOpcao( 400000000, TP_OPCAO_ITEM, "Centro de custo", "Centro de Custos", 'C', 400400000, 1, true, FCentroCusto.class );
-		addOpcao( 400000000, TP_OPCAO_ITEM, "Contas", "Contas", 't', 400500000, 1, true, FConta.class );
-		addOpcao( 400000000, TP_OPCAO_ITEM, "Histï¿½rico", "Histï¿½rico", 't', 400600000, 1, true, FHistPad.class );
-		addOpcao( 400000000, TP_OPCAO_ITEM, "Lanï¿½amentos", "Lanï¿½amentos", 'L', 400700000, 1, true, FLanca.class );
+		addOpcao( 300500000, TP_OPCAO_ITEM, "Tâches/Sous-tâches", "Tâches/Sous-tâches", 'T', 300504000, 2, true, FTarefa.class );
+		addOpcao( 300500000, TP_OPCAO_ITEM, "Situation des Projets/Contrats", "Situation Projeto/Contratos", 'S', 300506000, 2, true, FSitContr.class );
+		addOpcao( 300500000, TP_OPCAO_ITEM, "Gestion des Projets/Contrats", "Gestion des Projets/Contrats", 'G', 300507000, 2, true, FGestaoProj.class );
+		addOpcao( 300500000, TP_OPCAO_ITEM, "Modèle de contrat", "Modèle de contrat", 'M', 300508000, 2, true, FModContr.class );
+		addOpcao( -1, TP_OPCAO_MENU, "Commerciale", "", 'F', 400000000, 0, false, null );
+		addOpcao( 400000000, TP_OPCAO_MENU, "Billet/reçu", "", 'o', 400100000, 1, false, null );
+		addOpcao( 400100000, TP_OPCAO_ITEM, "Modèle", "Modèle de Billet/reçu", 'M', 400101000, 2, true, FModBoleto.class );
+		addOpcao( 400100000, TP_OPCAO_ITEM, "Imprimer", "Billet/reçu", 'I', 400101000, 2, true, FRBoleto.class );
+		addOpcao( 400000000, TP_OPCAO_ITEM, "Banque", "Banque", 'B', 400200000, 1, true, FBanco.class );
+		addOpcao( 400000000, TP_OPCAO_ITEM, "Planification", "Planification", 'P', 400300000, 1, true, FPlanejamento.class );
+		addOpcao( 400000000, TP_OPCAO_ITEM, "Centre de coûts", "Centre de coûts", 'C', 400400000, 1, true, FCentroCusto.class );
+		addOpcao( 400000000, TP_OPCAO_ITEM, "Comptes", "Comptes", 't', 400500000, 1, true, FConta.class );
+		addOpcao( 400000000, TP_OPCAO_ITEM, "Historique", "Historique", 't', 400600000, 1, true, FHistPad.class );
+		addOpcao( 400000000, TP_OPCAO_ITEM, "Liberation", "Liberation", 'L', 400700000, 1, true, FLanca.class );
 
 		addSeparador( 400000000 );
 
-		addOpcao( 400000000, TP_OPCAO_ITEM, "Tipo de crï¿½dito", "Tipo de crï¿½dito", 'T', 400800000, 1, true, FTipoCred.class );
-		addOpcao( 400000000, TP_OPCAO_ITEM, "Liberaï¿½ï¿½o de crï¿½dito", "Liberaï¿½ï¿½o de crï¿½dito", 'b', 400900000, 1, true, FLiberaCredito.class );
+		addOpcao( 400000000, TP_OPCAO_ITEM, "Type de crédit", "Type de crédit", 'T', 400800000, 1, true, FTipoCred.class );
+		addOpcao( 400000000, TP_OPCAO_ITEM, "Liberation de crédit", "Liberation de crédit", 'b', 400900000, 1, true, FLiberaCredito.class );
 
-		addOpcao( 400000000, TP_OPCAO_ITEM, "Tipo de Restriï¿½ï¿½o", "Tipo de Restriï¿½ï¿½o", 's', 401000000, 1, true, FTipoRestr.class );
-		addOpcao( 400000000, TP_OPCAO_ITEM, "Restriï¿½ï¿½o de clientes", "Restriï¿½ï¿½o de clientes", 'r', 401100000, 1, true, FRestrCli.class );
-		addOpcao( 400000000, TP_OPCAO_ITEM, "Receber/Pagar", "Receber/Pagar", 'g', 401400000, 1, true, FRRecPag.class );
+		addOpcao( 400000000, TP_OPCAO_ITEM, "Type de Restriction", "Type de Restriction", 's', 401000000, 1, true, FTipoRestr.class );
+		addOpcao( 400000000, TP_OPCAO_ITEM, "Restriction des clients", "Restriction des clients", 'r', 401100000, 1, true, FRestrCli.class );
+		addOpcao( 400000000, TP_OPCAO_ITEM, "Montant à recevoir/à payer", "Montant à recevoir/à payer", 'g', 401400000, 1, true, FRRecPag.class );
 
 		addSeparador( 400000000 );
 
-		addOpcao( 400000000, TP_OPCAO_ITEM, "Reprocessa saldo", "Reprocessamento de saldos", 'R', 401000000, 1, true, FProcessaSL.class );
+		addOpcao( 400000000, TP_OPCAO_ITEM, "solde de retraitement", "solde de retraitement", 'R', 401000000, 1, true, FProcessaSL.class );
 		addSeparador( 400000000 );
 
-		addOpcao( 400000000, TP_OPCAO_MENU, "Listes", "", 's', 401200000, 1, false, null );
+		addOpcao( 400000000, TP_OPCAO_MENU, "Lists", "", 's', 401200000, 1, false, null );
 		addOpcao( 401200000, TP_OPCAO_ITEM, "Extraire", "Extraire", 'E', 401201000, 2, true, FRExtrato.class );
-		addOpcao( 401200000, TP_OPCAO_ITEM, "Extrato Previsionado", "Extrato Previsionado", 'P', 401210000, 2, true, FRExtrato.class );
-		addOpcao( 401200000, TP_OPCAO_ITEM, "Balancete", "Balancete", 'B', 401202000, 2, true, FRBalancete.class );
-		addOpcao( 401200000, TP_OPCAO_ITEM, "Relatï¿½rio financeiro por C.C.", "Relatorio Financeiro por C.C.", 'R', 401203000, 2, true, FRCentroCusto.class );
-		addOpcao( 401200000, TP_OPCAO_ITEM, "Razï¿½o financeiro", "Razï¿½o financeiro", 'z', 401204000, 2, true, FRRazaoFin.class );
-		addOpcao( 401200000, TP_OPCAO_ITEM, "Fluxo de caixa", "Fluxo de caixa", 'F', 401205000, 2, true, FRFluxoCaixa.class );
-		addOpcao( 401200000, TP_OPCAO_ITEM, "Fluxo de caixa resumido", "Fluxo de caixa resumido", 'F', 401207000, 2, true, FRFluxoCaixaRes.class );
-		addOpcao( 401200000, TP_OPCAO_ITEM, "Restriï¿½ï¿½o/clientes", "Restriï¿½ï¿½o/clientes", 'R', 401206000, 2, true, FRRestricao.class );
-		addOpcao( 401200000, TP_OPCAO_ITEM, "Ponto de equilibrio", "Ponto de equilibrio", 'P', 401208000, 2, true, FRPontoEqui.class );
-		addOpcao( 401200000, TP_OPCAO_ITEM, "Fluxo de caixa realizado", "Fluxo de caixa realizado", 'c', 401209000, 2, true, FRFluxoCaixaReal.class );
-		addOpcao( 401200000, TP_OPCAO_ITEM, "Fluxo de caixa por perï¿½odo", "Fluxo de caixa por perï¿½odo", 'p', 401210000, 2, true, FRFluxoCaixaPeriodo.class );
+		addOpcao( 401200000, TP_OPCAO_ITEM, "extrait Provisionné", "extrait Provisionné", 'P', 401210000, 2, true, FRExtrato.class );
+		addOpcao( 401200000, TP_OPCAO_ITEM, "Bilan", "Bilan", 'B', 401202000, 2, true, FRBalancete.class );
+		addOpcao( 401200000, TP_OPCAO_ITEM, "Rapport financier par C.C.", "Rapport financier par C.C.", 'R', 401203000, 2, true, FRCentroCusto.class );
+		addOpcao( 401200000, TP_OPCAO_ITEM, "Justification financière", "Justification financière", 'z', 401204000, 2, true, FRRazaoFin.class );
+		addOpcao( 401200000, TP_OPCAO_ITEM, "Flux d Argent", "Flux d Argent", 'F', 401205000, 2, true, FRFluxoCaixa.class );
+		addOpcao( 401200000, TP_OPCAO_ITEM, "flux d Argent résumé", "flux d Argent résumé", 'F', 401207000, 2, true, FRFluxoCaixaRes.class );
+		addOpcao( 401200000, TP_OPCAO_ITEM, "Restriction/Clients", "Restriction/Clients", 'R', 401206000, 2, true, FRRestricao.class );
+		addOpcao( 401200000, TP_OPCAO_ITEM, "Point d'équilibre", "Point d'équilibre", 'P', 401208000, 2, true, FRPontoEqui.class );
+		addOpcao( 401200000, TP_OPCAO_ITEM, "flux d Argent réalisé", "flux d Argent réalisé", 'c', 401209000, 2, true, FRFluxoCaixaReal.class );
+		addOpcao( 401200000, TP_OPCAO_ITEM, "flux de trésorerie par période", "flux de trésorerie par période", 'p', 401210000, 2, true, FRFluxoCaixaPeriodo.class );
 
-		addOpcao( 400000000, TP_OPCAO_MENU, "Grï¿½ficos", "", 'G', 401300000, 1, false, null );
-		addOpcao( 401300000, TP_OPCAO_ITEM, "Balancete Grï¿½fico", "Balancete Grï¿½fico", 'B', 401301000, 2, true, FRBalanceteGrafico.class );
-		addOpcao( 401300000, TP_OPCAO_ITEM, "Grï¿½fico financeiro por C.C", "Grï¿½fico Financeiro por C.C", 'F', 401302000, 2, true, FRGraficoCC.class );
+		addOpcao( 400000000, TP_OPCAO_MENU, "Diagramme", "", 'G', 401300000, 1, false, null );
+		addOpcao( 401300000, TP_OPCAO_ITEM, "Diagramme de Solde", "Diagramme de Solde", 'B', 401301000, 2, true, FRBalanceteGrafico.class );
+		addOpcao( 401300000, TP_OPCAO_ITEM, "Diagramme Financiere par C.C", "Diagramme Financiere par por C.C", 'F', 401302000, 2, true, FRGraficoCC.class );
 
 		addSeparador( 400000000 );
-		addOpcao( 400000000, TP_OPCAO_ITEM, "Tipo de cobranï¿½a", "Tipo de cobranï¿½a", 'o', 401400000, 2, true, FTipoCob.class );
-		addOpcao( 400000000, TP_OPCAO_ITEM, "Talonï¿½rio de cheques", "Talonï¿½rio de cheques", 'h', 401500000, 1, true, FTalaoCheq.class );
-		addOpcao( 400000000, TP_OPCAO_ITEM, "Cheques", "Cheques", 'h', 401600000, 1, true, FCheque.class );
-		addOpcao( 400000000, TP_OPCAO_ITEM, "Consulta cheques", "Consulta cheques", 's', 401700000, 1, true, FConsultaCheque.class );
+		addOpcao( 400000000, TP_OPCAO_ITEM, "Type de facture", "Type de facture", 'o', 401400000, 2, true, FTipoCob.class );
+		addOpcao( 400000000, TP_OPCAO_ITEM, "Carnet de chèque", "Carnet de chèque", 'h', 401500000, 1, true, FTalaoCheq.class );
+		addOpcao( 400000000, TP_OPCAO_ITEM, "Chèques", "Chèques", 'h', 401600000, 1, true, FCheque.class );
+		addOpcao( 400000000, TP_OPCAO_ITEM, "Consultation des chèques", "Consultation des chèques", 's', 401700000, 1, true, FConsultaCheque.class );
 		addSeparador( 400000000 );
-		addOpcao( 400000000, TP_OPCAO_ITEM, "Sinalizadores", "Sinalizadores", 'S', 401700000, 1, true, FSinalizadores.class );
+		addOpcao( 400000000, TP_OPCAO_ITEM, "flags", "flags", 'S', 401700000, 1, true, FSinalizadores.class );
 
 		addBotao( "barraUsuario.png", "Client", "Clients", 100101050, FCliente.class );
-		addBotao( "btContaPagar.png", "Contas a pagar", "comptes de maintenance payables", 200100000, FManutPag.class );
-		addBotao( "btContaReceber.png", "Contas a receber", "Manutenï¿½ï¿½o de contas a receber", 300100000, FManutRec.class );
-		addBotao( "btLancamentoFin.png", "Lanï¿½amentos financeiros", "Lanï¿½amentos", 400600000, FLanca.class );
-		addBotao( "btRemessaCNAB.png", "Remessa CNAB", "Remessa CNAB", 300302010, FRemCnab.class );
-		addBotao( "btRetornoCNAB.png", "Retorno CNAB", "Retorno CNAB", 300302020, FRetCnab.class );
-
+		addBotao( "btContaPagar.png", "Factures à payer", "Factures à payer", 200100000, FManutPag.class );
+		addBotao( "btContaReceber.png", "Factures à recevoir", "Factures à recevoir", 300100000, FManutRec.class );
+		addBotao( "btLancamentoFin.png", "bilan financière ", "bilan", 400600000, FLanca.class );
+		addBotao( "btRemessaCNAB.png", "Rémitance CNAB", "Rémitance CNAB", 300302010, FRemCnab.class );
+		addBotao( "btRetornoCNAB.png", "Retour CNAB", "Retour CNAB", 300302020, FRetCnab.class );
+		
 		ajustaMenu();
 
 		nomemodulo = "Financeiro";
@@ -262,7 +262,7 @@ public class FreedomFNC extends AplicativoPD {
 			FreedomFNC freedom = new FreedomFNC();
 			freedom.show();
 		} catch ( Throwable e ) {
-			Funcoes.criaTelaErro( "Erreur d'exï¿½cution" );
+			Funcoes.criaTelaErro( "Erreur d'exécution" );
 			e.printStackTrace();
 		}
 	}
